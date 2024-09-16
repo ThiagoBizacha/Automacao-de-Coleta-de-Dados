@@ -13,18 +13,24 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logging.info(f"tratamento iniciado")  
+logging.info(f"Tratamento iniciado")  
 
 def clean_data(df):
     """Limpa e formata os dados extraídos da Amazon."""
     df['rank'] = df['rank'].str.replace('#', '', regex=False)
+
     df['rating'] = df['rating'].str.replace(' van 5 sterren', '').replace('No rating', "3").str.replace(",", ".").astype(float)
-    df['reviews'] = df['reviews'].replace('.', "")
-    df['reviews'] = df['reviews'].replace('No reviews', 1).astype(float)
+
+    df['reviews'] = df['reviews'].astype(str).str.replace('.', '', regex=False)  # Remove separadores de milhar
+    df['reviews'] = pd.to_numeric(df['reviews'], errors='coerce')  # Converte para numérico (coerce converte inválidos para NaN)
+    df['reviews'] = df['reviews'].replace(0, 1)
+
     df['value'] = pd.to_numeric(df['value'].str.replace(',', '.'), errors='coerce').round(2)
+    df['currency'] = df['symbol'].str.replace('€', 'EUR')
     
     # Filtramos e redefinimos o DataFrame, evitando cópias implícitas
     df = df[df['value'] <= 200]
+
     # Filtra o DataFrame removendo as categorias "Amazon Renewed" e "Amazon-apparaten & accessoires"
     df = df[~df['category'].isin(['Amazon Renewed', 'Amazon-apparaten & accessoires'])]
 
@@ -59,10 +65,12 @@ def transform_data(df_consolidated):
     Retorno:
         DataFrame: DataFrame limpo e com campos calculados.
     """
-    print("tratamento iniciado")
+    print("Tratamento iniciado")
     df_cleaned = clean_data(df_consolidated)
+    
     df_transformed = calculate_fields(df_cleaned)
+
     logging.info("Transformação finalizada.")
-    print("transformação finalizada")
+    #print("Transformação finalizada")
     return df_transformed
 

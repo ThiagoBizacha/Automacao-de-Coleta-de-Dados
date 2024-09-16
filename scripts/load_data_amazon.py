@@ -27,7 +27,7 @@ def load_data(df_transformed):
         # Salva o DataFrame em um arquivo Excel
         df_transformed.to_excel(filename, index=False)
         
-        print("carga finalizada")
+        print("Carga excel final finalizada")
         logging.info(f"Dados carregados e salvos em {filename}.")
     except Exception as e:
         logging.error(f"Erro ao carregar os dados: {e}")

@@ -217,7 +217,7 @@ def process_category(category_url, category_type):
     for category_link in category_links:
         category = category_link['category']  # Nome da subcategoria
         link = category_link['link']  # Link da subcategoria
-        logging.info(f"Processando categoria: {category}")
+        logging.info(f"Processando categoria: {category} - {link}")
         
         # Extrai os produtos da subcategoria
         products = get_amazon_bestsellers(link, category)
@@ -229,13 +229,13 @@ def process_category(category_url, category_type):
         all_products.extend(products)  # Adiciona os produtos à lista geral
         
         # Pausa com intervalo aleatório para evitar sobrecarga no servidor
-        time.sleep(random.uniform(1, 3))
+        time.sleep(random.uniform(5, 10))
 
     return all_products  # Retorna a lista de produtos processados
 
 # Função principal que coordena todo o processo
 def extract_data():
-    print("extração iniciada")
+    print("Extração iniciada")
 
     directory_path = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon"
 
@@ -256,15 +256,16 @@ def extract_data():
 
     # Cria um DataFrame com todos os produtos
     df_consolidated = pd.DataFrame(all_products)
-
-    # Exibe o DataFrame final para visualização
-    #print(df_final)
+    
+    df_consolidated['reviews'] = df_consolidated['reviews'].apply(lambda x: re.sub(r'[.,]', '', str(x)))
+    df_consolidated['reviews'] = df_consolidated['reviews'].replace("No reviews", 0)  # Substituir "No reviews" por 0
+    df_consolidated['reviews'] = df_consolidated['reviews'].astype(int)
 
     # Salva todos os dados consolidados em um arquivo Excel único
     save_to_excel_consolidated(all_products, directory_path)
 
     logging.info("Processo finalizado!")  # Registra a finalização do processo
-    print("extração finalizada")
+    print("Base excel bruta salva")
 
     return df_consolidated
 
