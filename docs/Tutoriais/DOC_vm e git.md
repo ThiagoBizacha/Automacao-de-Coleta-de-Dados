@@ -11,3 +11,6 @@ git commit -m "Initial commit"
 git push
 
 git clone <url-do-repositorio>
+
+Rodar o strimilit no terminal:
+streamlit run app.py
