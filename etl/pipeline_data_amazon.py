@@ -1,8 +1,22 @@
+import sys
+import os
+
+# Adiciona o diretório raiz do projeto ao sys.path para encontrar o módulo 'config'
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 import extract_data_amazon  # Importa o módulo de extração
 import transform_data_amazon  # Importa o módulo de transformação
 import load_data_amazon  # Importa o módulo de carga
 import load_postgresql  # Seu script de carga SQL
 import time  # Importa a biblioteca time para medir o tempo de execução
+from config.environment_setup import get_environment_settings
+
+# Carrega as configurações do ambiente
+get_environment_settings()
+
+# Restante do seu código...
+
 
 def main_pipeline():
     """    
