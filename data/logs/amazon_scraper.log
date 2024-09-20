@@ -1,462 +1,607 @@
-2024-09-16 12:16:19,568 - INFO - Extração iniciada
-2024-09-16 12:16:19,568 - INFO - Tratamento iniciado
-2024-09-16 12:16:20,732 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/bestsellers/amazon-renewed/ref=zg_bs_nav_amazon-renewed_0
-2024-09-16 12:16:21,766 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
-2024-09-16 12:16:23,367 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/bestsellers/amazon-devices/ref=zg_bs_nav_amazon-devices_0
-2024-09-16 12:16:25,356 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:16:27,338 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/bestsellers/automotive/ref=zg_bs_nav_automotive_0
-2024-09-16 12:16:28,852 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:16:31,303 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/bestsellers/baby-products/ref=zg_bs_nav_baby-products_0
-2024-09-16 12:16:32,729 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:16:35,022 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/bestsellers/beauty/ref=zg_bs_nav_beauty_0
-2024-09-16 12:16:36,604 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:16:38,101 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/bestsellers/books/ref=zg_bs_nav_books_0
-2024-09-16 12:16:38,989 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:16:41,242 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/bestsellers/gift-cards/ref=zg_bs_nav_gift-cards_0
-2024-09-16 12:16:42,033 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
-2024-09-16 12:16:44,779 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/bestsellers/electronics/ref=zg_bs_nav_electronics_0
-2024-09-16 12:16:46,128 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:16:47,987 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/bestsellers/dvd/ref=zg_bs_nav_dvd_0
-2024-09-16 12:16:49,299 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:16:52,099 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/bestsellers/videogames/ref=zg_bs_nav_videogames_0
-2024-09-16 12:16:53,220 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:16:56,130 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/bestsellers/hpc/ref=zg_bs_nav_hpc_0
-2024-09-16 12:16:57,111 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:16:58,400 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/bestsellers/pet-supplies/ref=zg_bs_nav_pet-supplies_0
-2024-09-16 12:16:59,526 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:17:02,471 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/bestsellers/office-products/ref=zg_bs_nav_office-products_0
-2024-09-16 12:17:02,680 - INFO - Encontrados 0 itens na categoria Kantoorproducten.
-2024-09-16 12:17:04,284 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/bestsellers/digital-text/ref=zg_bs_nav_digital-text_0
-2024-09-16 12:17:04,500 - INFO - Encontrados 0 itens na categoria Kindle Store.
-2024-09-16 12:17:07,492 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/bestsellers/fashion/ref=zg_bs_nav_fashion_0
-2024-09-16 12:17:08,547 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:17:10,525 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/bestsellers/hi/ref=zg_bs_nav_hi_0
-2024-09-16 12:17:10,729 - INFO - Encontrados 0 itens na categoria Klussen & gereedschap.
-2024-09-16 12:17:12,366 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/bestsellers/arts-crafts/ref=zg_bs_nav_arts-crafts_0
-2024-09-16 12:17:13,303 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:17:14,994 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/bestsellers/grocery/ref=zg_bs_nav_grocery_0
-2024-09-16 12:17:16,156 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-16 12:17:18,101 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/bestsellers/music/ref=zg_bs_nav_music_0
-2024-09-16 12:17:19,265 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:17:22,061 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/bestsellers/musical-instruments/ref=zg_bs_nav_musical-instruments_0
-2024-09-16 12:17:23,155 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:17:25,324 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/bestsellers/software/ref=zg_bs_nav_software_0
-2024-09-16 12:17:27,186 - INFO - Encontrados 30 itens na categoria Software.
-2024-09-16 12:17:28,245 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/bestsellers/toys/ref=zg_bs_nav_toys_0
-2024-09-16 12:17:29,414 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:17:31,226 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/bestsellers/sports/ref=zg_bs_nav_sports_0
-2024-09-16 12:17:32,352 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:17:35,295 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/bestsellers/lawn-and-garden/ref=zg_bs_nav_lawn-and-garden_0
-2024-09-16 12:17:36,351 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:17:38,492 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/bestsellers/home/ref=zg_bs_nav_home_0
-2024-09-16 12:17:39,679 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-16 12:17:42,007 - INFO - Processando categoria: Zakelijk, industrie & wetenschap - https://www.amazon.nl/gp/bestsellers/industrial/ref=zg_bs_nav_industrial_0
-2024-09-16 12:17:43,115 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
-2024-09-16 12:17:46,975 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/movers-and-shakers/amazon-renewed/ref=zg_bsms_nav_amazon-renewed_0
-2024-09-16 12:17:47,949 - INFO - Encontrados 22 itens na categoria Amazon Renewed.
-2024-09-16 12:17:50,575 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/movers-and-shakers/amazon-devices/ref=zg_bsms_nav_amazon-devices_0
-2024-09-16 12:17:51,713 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:17:53,607 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/movers-and-shakers/automotive/ref=zg_bsms_nav_automotive_0
-2024-09-16 12:17:54,771 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:17:57,347 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/movers-and-shakers/baby-products/ref=zg_bsms_nav_baby-products_0
-2024-09-16 12:17:58,524 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:18:00,842 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/movers-and-shakers/beauty/ref=zg_bsms_nav_beauty_0
-2024-09-16 12:18:02,068 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:18:04,071 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/movers-and-shakers/books/ref=zg_bsms_nav_books_0
-2024-09-16 12:18:05,254 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:18:07,345 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/movers-and-shakers/gift-cards/ref=zg_bsms_nav_gift-cards_0
-2024-09-16 12:18:08,314 - INFO - Encontrados 27 itens na categoria Cadeaubonnen.
-2024-09-16 12:18:09,340 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/movers-and-shakers/electronics/ref=zg_bsms_nav_electronics_0
-2024-09-16 12:18:10,589 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:18:13,140 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/movers-and-shakers/dvd/ref=zg_bsms_nav_dvd_0
-2024-09-16 12:18:14,182 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:18:16,994 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/movers-and-shakers/videogames/ref=zg_bsms_nav_videogames_0
-2024-09-16 12:18:18,146 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:18:19,623 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/movers-and-shakers/hpc/ref=zg_bsms_nav_hpc_0
-2024-09-16 12:18:20,836 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:18:22,008 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/movers-and-shakers/pet-supplies/ref=zg_bsms_nav_pet-supplies_0
-2024-09-16 12:18:23,143 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:18:25,895 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/movers-and-shakers/office-products/ref=zg_bsms_nav_office-products_0
-2024-09-16 12:18:27,082 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-16 12:18:29,667 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/movers-and-shakers/digital-text/ref=zg_bsms_nav_digital-text_0
-2024-09-16 12:18:30,722 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-16 12:18:31,896 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/movers-and-shakers/fashion/ref=zg_bsms_nav_fashion_0
-2024-09-16 12:18:33,154 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:18:35,284 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/movers-and-shakers/hi/ref=zg_bsms_nav_hi_0
-2024-09-16 12:18:36,432 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-16 12:18:38,247 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/movers-and-shakers/arts-crafts/ref=zg_bsms_nav_arts-crafts_0
-2024-09-16 12:18:39,428 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:18:42,109 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/movers-and-shakers/grocery/ref=zg_bsms_nav_grocery_0
-2024-09-16 12:18:43,240 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-16 12:18:46,054 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/movers-and-shakers/music/ref=zg_bsms_nav_music_0
-2024-09-16 12:18:47,274 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:18:48,780 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/movers-and-shakers/musical-instruments/ref=zg_bsms_nav_musical-instruments_0
-2024-09-16 12:18:49,901 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:18:50,927 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/movers-and-shakers/software/ref=zg_bsms_nav_software_0
-2024-09-16 12:18:51,141 - INFO - Encontrados 0 itens na categoria Software.
-2024-09-16 12:18:53,508 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/movers-and-shakers/toys/ref=zg_bsms_nav_toys_0
-2024-09-16 12:18:54,711 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:18:56,957 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/movers-and-shakers/sports/ref=zg_bsms_nav_sports_0
-2024-09-16 12:18:58,201 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:19:00,659 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/movers-and-shakers/lawn-and-garden/ref=zg_bsms_nav_lawn-and-garden_0
-2024-09-16 12:19:01,899 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:19:03,911 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/movers-and-shakers/home/ref=zg_bsms_nav_home_0
-2024-09-16 12:19:04,112 - INFO - Encontrados 0 itens na categoria Wonen & keuken.
-2024-09-16 12:19:07,908 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/new-releases/amazon-renewed/ref=zg_bsnr_nav_amazon-renewed_0
-2024-09-16 12:19:08,833 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
-2024-09-16 12:19:09,840 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/new-releases/amazon-devices/ref=zg_bsnr_nav_amazon-devices_0
-2024-09-16 12:19:10,826 - INFO - Encontrados 16 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:19:11,898 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/new-releases/automotive/ref=zg_bsnr_nav_automotive_0
-2024-09-16 12:19:12,882 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:19:14,627 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/new-releases/baby-products/ref=zg_bsnr_nav_baby-products_0
-2024-09-16 12:19:15,799 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:19:18,603 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/new-releases/beauty/ref=zg_bsnr_nav_beauty_0
-2024-09-16 12:19:19,629 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:19:22,424 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/new-releases/books/ref=zg_bsnr_nav_books_0
-2024-09-16 12:19:23,380 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:19:25,055 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/new-releases/electronics/ref=zg_bsnr_nav_electronics_0
-2024-09-16 12:19:25,998 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:19:27,631 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/new-releases/dvd/ref=zg_bsnr_nav_dvd_0
-2024-09-16 12:19:28,605 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:19:30,356 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/new-releases/videogames/ref=zg_bsnr_nav_videogames_0
-2024-09-16 12:19:31,429 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:19:32,619 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/new-releases/hpc/ref=zg_bsnr_nav_hpc_0
-2024-09-16 12:19:32,824 - INFO - Encontrados 0 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:19:35,117 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/new-releases/pet-supplies/ref=zg_bsnr_nav_pet-supplies_0
-2024-09-16 12:19:36,118 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:19:38,751 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/new-releases/office-products/ref=zg_bsnr_nav_office-products_0
-2024-09-16 12:19:38,974 - INFO - Encontrados 0 itens na categoria Kantoorproducten.
-2024-09-16 12:19:41,090 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/new-releases/digital-text/ref=zg_bsnr_nav_digital-text_0
-2024-09-16 12:19:42,238 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-16 12:19:44,543 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/new-releases/fashion/ref=zg_bsnr_nav_fashion_0
-2024-09-16 12:19:45,703 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:19:48,484 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/new-releases/hi/ref=zg_bsnr_nav_hi_0
-2024-09-16 12:19:50,208 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-16 12:19:52,118 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/new-releases/arts-crafts/ref=zg_bsnr_nav_arts-crafts_0
-2024-09-16 12:19:53,126 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:19:54,638 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/new-releases/music/ref=zg_bsnr_nav_music_0
-2024-09-16 12:19:55,560 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:19:56,723 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/new-releases/musical-instruments/ref=zg_bsnr_nav_musical-instruments_0
-2024-09-16 12:19:57,728 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:19:59,457 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/new-releases/toys/ref=zg_bsnr_nav_toys_0
-2024-09-16 12:20:00,840 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:20:02,393 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/new-releases/sports/ref=zg_bsnr_nav_sports_0
-2024-09-16 12:20:03,966 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:20:06,414 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/new-releases/lawn-and-garden/ref=zg_bsnr_nav_lawn-and-garden_0
-2024-09-16 12:20:07,290 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:20:09,711 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/new-releases/home/ref=zg_bsnr_nav_home_0
-2024-09-16 12:20:10,890 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-16 12:20:13,166 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-16.xlsx
-2024-09-16 12:20:13,166 - INFO - Processo finalizado!
-2024-09-16 12:20:13,166 - INFO - Dados limpos e valores inválidos removidos.
-2024-09-16 12:20:13,166 - INFO - Campos calculados adicionados com sucesso.
-2024-09-16 12:20:13,166 - INFO - Transformação finalizada.
-2024-09-16 12:20:13,480 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-16.xlsx.
-2024-09-16 12:34:01,598 - INFO - Extração iniciada
-2024-09-16 12:34:01,608 - INFO - Tratamento iniciado
-2024-09-16 12:34:03,044 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/bestsellers/amazon-renewed/ref=zg_bs_nav_amazon-renewed_0
-2024-09-16 12:34:04,077 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
-2024-09-16 12:34:09,634 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/bestsellers/amazon-devices/ref=zg_bs_nav_amazon-devices_0
-2024-09-16 12:34:10,574 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:34:18,165 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/bestsellers/automotive/ref=zg_bs_nav_automotive_0
-2024-09-16 12:34:19,277 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:34:27,328 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/bestsellers/baby-products/ref=zg_bs_nav_baby-products_0
-2024-09-16 12:34:28,556 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:34:35,520 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/bestsellers/beauty/ref=zg_bs_nav_beauty_0
-2024-09-16 12:34:36,666 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:34:44,734 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/bestsellers/books/ref=zg_bs_nav_books_0
-2024-09-16 12:34:45,701 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:34:54,612 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/bestsellers/gift-cards/ref=zg_bs_nav_gift-cards_0
-2024-09-16 12:34:55,539 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
-2024-09-16 12:35:02,125 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/bestsellers/electronics/ref=zg_bs_nav_electronics_0
-2024-09-16 12:35:03,452 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:35:13,040 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/bestsellers/dvd/ref=zg_bs_nav_dvd_0
-2024-09-16 12:35:14,181 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:35:20,313 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/bestsellers/videogames/ref=zg_bs_nav_videogames_0
-2024-09-16 12:35:21,301 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:35:27,271 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/bestsellers/hpc/ref=zg_bs_nav_hpc_0
-2024-09-16 12:35:28,312 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:35:35,658 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/bestsellers/pet-supplies/ref=zg_bs_nav_pet-supplies_0
-2024-09-16 12:35:36,649 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:35:42,249 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/bestsellers/office-products/ref=zg_bs_nav_office-products_0
-2024-09-16 12:35:43,428 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-16 12:35:48,528 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/bestsellers/digital-text/ref=zg_bs_nav_digital-text_0
-2024-09-16 12:35:49,470 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-16 12:35:59,064 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/bestsellers/fashion/ref=zg_bs_nav_fashion_0
-2024-09-16 12:36:00,144 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:36:07,309 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/bestsellers/hi/ref=zg_bs_nav_hi_0
-2024-09-16 12:36:08,653 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-16 12:36:17,370 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/bestsellers/arts-crafts/ref=zg_bs_nav_arts-crafts_0
-2024-09-16 12:36:18,507 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:36:24,555 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/bestsellers/grocery/ref=zg_bs_nav_grocery_0
-2024-09-16 12:36:25,724 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-16 12:36:34,408 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/bestsellers/music/ref=zg_bs_nav_music_0
-2024-09-16 12:36:35,474 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:36:45,364 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/bestsellers/musical-instruments/ref=zg_bs_nav_musical-instruments_0
-2024-09-16 12:36:46,611 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:36:55,150 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/bestsellers/software/ref=zg_bs_nav_software_0
-2024-09-16 12:36:56,383 - INFO - Encontrados 30 itens na categoria Software.
-2024-09-16 12:37:05,881 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/bestsellers/toys/ref=zg_bs_nav_toys_0
-2024-09-16 12:37:07,185 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:37:12,873 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/bestsellers/sports/ref=zg_bs_nav_sports_0
-2024-09-16 12:37:14,218 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:37:22,499 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/bestsellers/lawn-and-garden/ref=zg_bs_nav_lawn-and-garden_0
-2024-09-16 12:37:23,502 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:37:30,401 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/bestsellers/home/ref=zg_bs_nav_home_0
-2024-09-16 12:37:31,402 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-16 12:37:40,398 - INFO - Processando categoria: Zakelijk, industrie & wetenschap - https://www.amazon.nl/gp/bestsellers/industrial/ref=zg_bs_nav_industrial_0
-2024-09-16 12:37:41,588 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
-2024-09-16 12:37:50,298 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/movers-and-shakers/amazon-renewed/ref=zg_bsms_nav_amazon-renewed_0
-2024-09-16 12:37:51,485 - INFO - Encontrados 22 itens na categoria Amazon Renewed.
-2024-09-16 12:37:58,585 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/movers-and-shakers/amazon-devices/ref=zg_bsms_nav_amazon-devices_0
-2024-09-16 12:37:59,686 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:38:05,422 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/movers-and-shakers/automotive/ref=zg_bsms_nav_automotive_0
-2024-09-16 12:38:06,558 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:38:13,096 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/movers-and-shakers/baby-products/ref=zg_bsms_nav_baby-products_0
-2024-09-16 12:38:14,362 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:38:22,423 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/movers-and-shakers/beauty/ref=zg_bsms_nav_beauty_0
-2024-09-16 12:38:23,652 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:38:31,855 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/movers-and-shakers/books/ref=zg_bsms_nav_books_0
-2024-09-16 12:38:33,083 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:38:40,510 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/movers-and-shakers/gift-cards/ref=zg_bsms_nav_gift-cards_0
-2024-09-16 12:38:41,438 - INFO - Encontrados 27 itens na categoria Cadeaubonnen.
-2024-09-16 12:38:46,885 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/movers-and-shakers/electronics/ref=zg_bsms_nav_electronics_0
-2024-09-16 12:38:48,027 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:38:57,298 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/movers-and-shakers/dvd/ref=zg_bsms_nav_dvd_0
-2024-09-16 12:38:58,365 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:39:08,179 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/movers-and-shakers/videogames/ref=zg_bsms_nav_videogames_0
-2024-09-16 12:39:09,449 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:39:16,330 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/movers-and-shakers/hpc/ref=zg_bsms_nav_hpc_0
-2024-09-16 12:39:18,430 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:39:24,504 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/movers-and-shakers/pet-supplies/ref=zg_bsms_nav_pet-supplies_0
-2024-09-16 12:39:26,355 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:39:32,190 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/movers-and-shakers/office-products/ref=zg_bsms_nav_office-products_0
-2024-09-16 12:39:33,494 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-16 12:39:42,891 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/movers-and-shakers/digital-text/ref=zg_bsms_nav_digital-text_0
-2024-09-16 12:39:44,755 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-16 12:39:50,120 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/movers-and-shakers/fashion/ref=zg_bsms_nav_fashion_0
-2024-09-16 12:39:52,074 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:39:57,807 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/movers-and-shakers/hi/ref=zg_bsms_nav_hi_0
-2024-09-16 12:39:59,687 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-16 12:40:09,578 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/movers-and-shakers/arts-crafts/ref=zg_bsms_nav_arts-crafts_0
-2024-09-16 12:40:11,445 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:40:19,275 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/movers-and-shakers/grocery/ref=zg_bsms_nav_grocery_0
-2024-09-16 12:40:20,190 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-16 12:40:26,953 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/movers-and-shakers/music/ref=zg_bsms_nav_music_0
-2024-09-16 12:40:28,455 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:40:33,891 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/movers-and-shakers/musical-instruments/ref=zg_bsms_nav_musical-instruments_0
-2024-09-16 12:40:35,391 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:40:44,139 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/movers-and-shakers/software/ref=zg_bsms_nav_software_0
-2024-09-16 12:40:45,168 - INFO - Encontrados 9 itens na categoria Software.
-2024-09-16 12:40:55,063 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/movers-and-shakers/toys/ref=zg_bsms_nav_toys_0
-2024-09-16 12:40:56,272 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:41:04,997 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/movers-and-shakers/sports/ref=zg_bsms_nav_sports_0
-2024-09-16 12:41:06,195 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:41:12,742 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/movers-and-shakers/lawn-and-garden/ref=zg_bsms_nav_lawn-and-garden_0
-2024-09-16 12:41:13,887 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:41:21,345 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/movers-and-shakers/home/ref=zg_bsms_nav_home_0
-2024-09-16 12:41:22,644 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-16 12:41:31,582 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/new-releases/amazon-renewed/ref=zg_bsnr_nav_amazon-renewed_0
-2024-09-16 12:41:32,509 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
-2024-09-16 12:41:40,756 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/new-releases/amazon-devices/ref=zg_bsnr_nav_amazon-devices_0
-2024-09-16 12:41:41,658 - INFO - Encontrados 16 itens na categoria Amazon-apparaten & accessoires.
-2024-09-16 12:41:50,470 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/new-releases/automotive/ref=zg_bsnr_nav_automotive_0
-2024-09-16 12:41:52,127 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-16 12:41:57,997 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/new-releases/baby-products/ref=zg_bsnr_nav_baby-products_0
-2024-09-16 12:41:59,627 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-16 12:42:06,351 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/new-releases/beauty/ref=zg_bsnr_nav_beauty_0
-2024-09-16 12:42:08,048 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-16 12:42:16,087 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/new-releases/books/ref=zg_bsnr_nav_books_0
-2024-09-16 12:42:17,820 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-16 12:42:24,142 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/new-releases/electronics/ref=zg_bsnr_nav_electronics_0
-2024-09-16 12:42:25,974 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-16 12:42:35,088 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/new-releases/dvd/ref=zg_bsnr_nav_dvd_0
-2024-09-16 12:42:36,793 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-16 12:42:46,486 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/new-releases/videogames/ref=zg_bsnr_nav_videogames_0
-2024-09-16 12:42:48,154 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-16 12:42:57,133 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/new-releases/hpc/ref=zg_bsnr_nav_hpc_0
-2024-09-16 12:42:58,344 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-16 12:43:05,701 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/new-releases/pet-supplies/ref=zg_bsnr_nav_pet-supplies_0
-2024-09-16 12:43:06,831 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-16 12:43:16,314 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/new-releases/office-products/ref=zg_bsnr_nav_office-products_0
-2024-09-16 12:43:17,445 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-16 12:43:24,285 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/new-releases/digital-text/ref=zg_bsnr_nav_digital-text_0
-2024-09-16 12:43:25,203 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-16 12:43:33,843 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/new-releases/fashion/ref=zg_bsnr_nav_fashion_0
-2024-09-16 12:43:34,854 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-16 12:43:40,640 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/new-releases/hi/ref=zg_bsnr_nav_hi_0
-2024-09-16 12:43:41,649 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-16 12:43:46,791 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/new-releases/arts-crafts/ref=zg_bsnr_nav_arts-crafts_0
-2024-09-16 12:43:47,843 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-16 12:43:56,673 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/new-releases/music/ref=zg_bsnr_nav_music_0
-2024-09-16 12:43:57,908 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-16 12:44:03,494 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/new-releases/musical-instruments/ref=zg_bsnr_nav_musical-instruments_0
-2024-09-16 12:44:04,638 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-16 12:44:10,418 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/new-releases/toys/ref=zg_bsnr_nav_toys_0
-2024-09-16 12:44:11,573 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-16 12:44:20,972 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/new-releases/sports/ref=zg_bsnr_nav_sports_0
-2024-09-16 12:44:22,122 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-16 12:44:31,280 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/new-releases/lawn-and-garden/ref=zg_bsnr_nav_lawn-and-garden_0
-2024-09-16 12:44:32,446 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-16 12:44:40,620 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/new-releases/home/ref=zg_bsnr_nav_home_0
-2024-09-16 12:44:41,612 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-16 12:44:51,517 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-16.xlsx
-2024-09-16 12:44:51,517 - INFO - Processo finalizado!
-2024-09-16 12:44:51,532 - INFO - Dados limpos e valores inválidos removidos.
-2024-09-16 12:44:51,534 - INFO - Campos calculados adicionados com sucesso.
-2024-09-16 12:44:51,534 - INFO - Transformação finalizada.
-2024-09-16 12:44:52,292 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-16.xlsx.
-2024-09-17 10:30:06,321 - INFO - Extração iniciada
-2024-09-17 10:30:06,323 - INFO - Tratamento iniciado
-2024-09-17 10:30:07,900 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/bestsellers/amazon-renewed/ref=zg_bs_nav_amazon-renewed_0
-2024-09-17 10:30:08,955 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
-2024-09-17 10:30:18,768 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/bestsellers/amazon-devices/ref=zg_bs_nav_amazon-devices_0
-2024-09-17 10:30:19,881 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
-2024-09-17 10:30:27,196 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/bestsellers/automotive/ref=zg_bs_nav_automotive_0
-2024-09-17 10:30:28,208 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-17 10:30:37,401 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/bestsellers/baby-products/ref=zg_bs_nav_baby-products_0
-2024-09-17 10:30:38,487 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-17 10:30:46,779 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/bestsellers/beauty/ref=zg_bs_nav_beauty_0
-2024-09-17 10:30:48,419 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-17 10:30:55,227 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/bestsellers/books/ref=zg_bs_nav_books_0
-2024-09-17 10:30:56,275 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-17 10:31:02,048 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/bestsellers/gift-cards/ref=zg_bs_nav_gift-cards_0
-2024-09-17 10:31:03,032 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
-2024-09-17 10:31:10,914 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/bestsellers/electronics/ref=zg_bs_nav_electronics_0
-2024-09-17 10:31:12,024 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-17 10:31:18,506 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/bestsellers/dvd/ref=zg_bs_nav_dvd_0
-2024-09-17 10:31:19,509 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-17 10:31:25,662 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/bestsellers/videogames/ref=zg_bs_nav_videogames_0
-2024-09-17 10:31:27,343 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-17 10:31:34,637 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/bestsellers/hpc/ref=zg_bs_nav_hpc_0
-2024-09-17 10:31:35,778 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-17 10:31:41,384 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/bestsellers/pet-supplies/ref=zg_bs_nav_pet-supplies_0
-2024-09-17 10:31:42,532 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-17 10:31:50,329 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/bestsellers/office-products/ref=zg_bs_nav_office-products_0
-2024-09-17 10:31:51,440 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-17 10:31:56,691 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/bestsellers/digital-text/ref=zg_bs_nav_digital-text_0
-2024-09-17 10:31:57,616 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-17 10:32:04,883 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/bestsellers/fashion/ref=zg_bs_nav_fashion_0
-2024-09-17 10:32:06,067 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-17 10:32:14,542 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/bestsellers/hi/ref=zg_bs_nav_hi_0
-2024-09-17 10:32:16,464 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-17 10:32:25,701 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/bestsellers/arts-crafts/ref=zg_bs_nav_arts-crafts_0
-2024-09-17 10:32:27,617 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-17 10:32:35,261 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/bestsellers/grocery/ref=zg_bs_nav_grocery_0
-2024-09-17 10:32:37,007 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-17 10:32:45,442 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/bestsellers/music/ref=zg_bs_nav_music_0
-2024-09-17 10:32:47,151 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-17 10:32:54,188 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/bestsellers/musical-instruments/ref=zg_bs_nav_musical-instruments_0
-2024-09-17 10:32:56,112 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-17 10:33:02,222 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/bestsellers/software/ref=zg_bs_nav_software_0
-2024-09-17 10:33:03,949 - INFO - Encontrados 30 itens na categoria Software.
-2024-09-17 10:33:11,242 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/bestsellers/toys/ref=zg_bs_nav_toys_0
-2024-09-17 10:33:13,025 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-17 10:33:22,712 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/bestsellers/sports/ref=zg_bs_nav_sports_0
-2024-09-17 10:33:23,996 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-17 10:33:31,708 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/bestsellers/lawn-and-garden/ref=zg_bs_nav_lawn-and-garden_0
-2024-09-17 10:33:32,813 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-17 10:33:42,536 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/bestsellers/home/ref=zg_bs_nav_home_0
-2024-09-17 10:33:42,839 - INFO - Encontrados 0 itens na categoria Wonen & keuken.
-2024-09-17 10:33:49,483 - INFO - Processando categoria: Zakelijk, industrie & wetenschap - https://www.amazon.nl/gp/bestsellers/industrial/ref=zg_bs_nav_industrial_0
-2024-09-17 10:33:50,458 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
-2024-09-17 10:33:59,787 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/movers-and-shakers/amazon-renewed/ref=zg_bsms_nav_amazon-renewed_0
-2024-09-17 10:34:00,901 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
-2024-09-17 10:34:08,627 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/movers-and-shakers/amazon-devices/ref=zg_bsms_nav_amazon-devices_0
-2024-09-17 10:34:09,815 - INFO - Encontrados 24 itens na categoria Amazon-apparaten & accessoires.
-2024-09-17 10:34:19,727 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/movers-and-shakers/automotive/ref=zg_bsms_nav_automotive_0
-2024-09-17 10:34:20,891 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-17 10:34:30,317 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/movers-and-shakers/baby-products/ref=zg_bsms_nav_baby-products_0
-2024-09-17 10:34:31,732 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-17 10:34:39,455 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/movers-and-shakers/beauty/ref=zg_bsms_nav_beauty_0
-2024-09-17 10:34:40,780 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-17 10:34:50,320 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/movers-and-shakers/books/ref=zg_bsms_nav_books_0
-2024-09-17 10:34:51,726 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-17 10:35:01,558 - INFO - Processando categoria: Cadeaubonnen - https://www.amazon.nl/gp/movers-and-shakers/gift-cards/ref=zg_bsms_nav_gift-cards_0
-2024-09-17 10:35:02,628 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
-2024-09-17 10:35:11,222 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/movers-and-shakers/electronics/ref=zg_bsms_nav_electronics_0
-2024-09-17 10:35:12,661 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-17 10:35:18,370 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/movers-and-shakers/dvd/ref=zg_bsms_nav_dvd_0
-2024-09-17 10:35:19,650 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-17 10:35:28,308 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/movers-and-shakers/videogames/ref=zg_bsms_nav_videogames_0
-2024-09-17 10:35:29,531 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-17 10:35:35,514 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/movers-and-shakers/hpc/ref=zg_bsms_nav_hpc_0
-2024-09-17 10:35:36,843 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-17 10:35:45,886 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/movers-and-shakers/pet-supplies/ref=zg_bsms_nav_pet-supplies_0
-2024-09-17 10:35:47,021 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-17 10:35:53,577 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/movers-and-shakers/office-products/ref=zg_bsms_nav_office-products_0
-2024-09-17 10:35:54,769 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-17 10:35:59,968 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/movers-and-shakers/digital-text/ref=zg_bsms_nav_digital-text_0
-2024-09-17 10:36:01,249 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-17 10:36:08,251 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/movers-and-shakers/fashion/ref=zg_bsms_nav_fashion_0
-2024-09-17 10:36:09,516 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-17 10:36:15,928 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/movers-and-shakers/hi/ref=zg_bsms_nav_hi_0
-2024-09-17 10:36:17,138 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-17 10:36:26,016 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/movers-and-shakers/arts-crafts/ref=zg_bsms_nav_arts-crafts_0
-2024-09-17 10:36:27,342 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-17 10:36:36,477 - INFO - Processando categoria: Levensmiddelen - https://www.amazon.nl/gp/movers-and-shakers/grocery/ref=zg_bsms_nav_grocery_0
-2024-09-17 10:36:37,744 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
-2024-09-17 10:36:45,707 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/movers-and-shakers/music/ref=zg_bsms_nav_music_0
-2024-09-17 10:36:46,763 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-17 10:36:55,570 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/movers-and-shakers/musical-instruments/ref=zg_bsms_nav_musical-instruments_0
-2024-09-17 10:36:57,120 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
-2024-09-17 10:37:06,063 - INFO - Processando categoria: Software - https://www.amazon.nl/gp/movers-and-shakers/software/ref=zg_bsms_nav_software_0
-2024-09-17 10:37:06,977 - INFO - Encontrados 7 itens na categoria Software.
-2024-09-17 10:37:13,401 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/movers-and-shakers/toys/ref=zg_bsms_nav_toys_0
-2024-09-17 10:37:14,628 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-17 10:37:21,180 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/movers-and-shakers/sports/ref=zg_bsms_nav_sports_0
-2024-09-17 10:37:21,423 - INFO - Encontrados 0 itens na categoria Sport & outdoor.
-2024-09-17 10:37:30,993 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/movers-and-shakers/lawn-and-garden/ref=zg_bsms_nav_lawn-and-garden_0
-2024-09-17 10:37:32,271 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-17 10:37:40,313 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/movers-and-shakers/home/ref=zg_bsms_nav_home_0
-2024-09-17 10:37:41,646 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-17 10:37:49,705 - INFO - Processando categoria: Amazon Renewed - https://www.amazon.nl/gp/new-releases/amazon-renewed/ref=zg_bsnr_nav_amazon-renewed_0
-2024-09-17 10:37:50,638 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
-2024-09-17 10:37:57,131 - INFO - Processando categoria: Amazon-apparaten & accessoires - https://www.amazon.nl/gp/new-releases/amazon-devices/ref=zg_bsnr_nav_amazon-devices_0
-2024-09-17 10:37:58,033 - INFO - Encontrados 16 itens na categoria Amazon-apparaten & accessoires.
-2024-09-17 10:38:05,046 - INFO - Processando categoria: Auto & motor - https://www.amazon.nl/gp/new-releases/automotive/ref=zg_bsnr_nav_automotive_0
-2024-09-17 10:38:06,151 - INFO - Encontrados 30 itens na categoria Auto & motor.
-2024-09-17 10:38:14,415 - INFO - Processando categoria: Babyproducten - https://www.amazon.nl/gp/new-releases/baby-products/ref=zg_bsnr_nav_baby-products_0
-2024-09-17 10:38:15,552 - INFO - Encontrados 30 itens na categoria Babyproducten.
-2024-09-17 10:38:20,830 - INFO - Processando categoria: Beauty - https://www.amazon.nl/gp/new-releases/beauty/ref=zg_bsnr_nav_beauty_0
-2024-09-17 10:38:21,803 - INFO - Encontrados 30 itens na categoria Beauty.
-2024-09-17 10:38:30,761 - INFO - Processando categoria: Boeken - https://www.amazon.nl/gp/new-releases/books/ref=zg_bsnr_nav_books_0
-2024-09-17 10:38:32,105 - INFO - Encontrados 30 itens na categoria Boeken.
-2024-09-17 10:38:41,488 - INFO - Processando categoria: Elektronica - https://www.amazon.nl/gp/new-releases/electronics/ref=zg_bsnr_nav_electronics_0
-2024-09-17 10:38:42,568 - INFO - Encontrados 30 itens na categoria Elektronica.
-2024-09-17 10:38:49,835 - INFO - Processando categoria: Films & tv - https://www.amazon.nl/gp/new-releases/dvd/ref=zg_bsnr_nav_dvd_0
-2024-09-17 10:38:50,882 - INFO - Encontrados 30 itens na categoria Films & tv.
-2024-09-17 10:38:57,762 - INFO - Processando categoria: Games - https://www.amazon.nl/gp/new-releases/videogames/ref=zg_bsnr_nav_videogames_0
-2024-09-17 10:38:58,956 - INFO - Encontrados 30 itens na categoria Games.
-2024-09-17 10:39:07,390 - INFO - Processando categoria: Gezondheid & persoonlijke verzorging - https://www.amazon.nl/gp/new-releases/hpc/ref=zg_bsnr_nav_hpc_0
-2024-09-17 10:39:08,699 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
-2024-09-17 10:39:13,993 - INFO - Processando categoria: Huisdierbenodigdheden - https://www.amazon.nl/gp/new-releases/pet-supplies/ref=zg_bsnr_nav_pet-supplies_0
-2024-09-17 10:39:14,941 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
-2024-09-17 10:39:21,288 - INFO - Processando categoria: Kantoorproducten - https://www.amazon.nl/gp/new-releases/office-products/ref=zg_bsnr_nav_office-products_0
-2024-09-17 10:39:22,365 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
-2024-09-17 10:39:32,048 - INFO - Processando categoria: Kindle Store - https://www.amazon.nl/gp/new-releases/digital-text/ref=zg_bsnr_nav_digital-text_0
-2024-09-17 10:39:33,114 - INFO - Encontrados 30 itens na categoria Kindle Store.
-2024-09-17 10:39:41,605 - INFO - Processando categoria: Kleding, schoenen & sieraden - https://www.amazon.nl/gp/new-releases/fashion/ref=zg_bsnr_nav_fashion_0
-2024-09-17 10:39:42,986 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
-2024-09-17 10:39:52,489 - INFO - Processando categoria: Klussen & gereedschap - https://www.amazon.nl/gp/new-releases/hi/ref=zg_bsnr_nav_hi_0
-2024-09-17 10:39:53,527 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
-2024-09-17 10:40:02,915 - INFO - Processando categoria: Knutselen - https://www.amazon.nl/gp/new-releases/arts-crafts/ref=zg_bsnr_nav_arts-crafts_0
-2024-09-17 10:40:04,037 - INFO - Encontrados 30 itens na categoria Knutselen.
-2024-09-17 10:40:09,557 - INFO - Processando categoria: Muziek - https://www.amazon.nl/gp/new-releases/music/ref=zg_bsnr_nav_music_0
-2024-09-17 10:40:10,767 - INFO - Encontrados 30 itens na categoria Muziek.
-2024-09-17 10:40:17,737 - INFO - Processando categoria: Muziekinstrumenten - https://www.amazon.nl/gp/new-releases/musical-instruments/ref=zg_bsnr_nav_musical-instruments_0
-2024-09-17 10:40:18,066 - INFO - Encontrados 0 itens na categoria Muziekinstrumenten.
-2024-09-17 10:40:23,693 - INFO - Processando categoria: Speelgoed & spellen - https://www.amazon.nl/gp/new-releases/toys/ref=zg_bsnr_nav_toys_0
-2024-09-17 10:40:24,842 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
-2024-09-17 10:40:34,307 - INFO - Processando categoria: Sport & outdoor - https://www.amazon.nl/gp/new-releases/sports/ref=zg_bsnr_nav_sports_0
-2024-09-17 10:40:35,763 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
-2024-09-17 10:40:43,369 - INFO - Processando categoria: Tuin, terras & gazon - https://www.amazon.nl/gp/new-releases/lawn-and-garden/ref=zg_bsnr_nav_lawn-and-garden_0
-2024-09-17 10:40:44,547 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
-2024-09-17 10:40:50,485 - INFO - Processando categoria: Wonen & keuken - https://www.amazon.nl/gp/new-releases/home/ref=zg_bsnr_nav_home_0
-2024-09-17 10:40:51,464 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
-2024-09-17 10:41:00,718 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-17.xlsx
-2024-09-17 10:41:00,718 - INFO - Processo finalizado!
-2024-09-17 10:41:00,733 - INFO - Dados limpos e valores inválidos removidos.
-2024-09-17 10:41:00,733 - INFO - Campos calculados adicionados com sucesso.
-2024-09-17 10:41:00,733 - INFO - Transformação finalizada.
-2024-09-17 10:41:01,111 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-17.xlsx.
+2024-09-19 15:18:28,589 - INFO - Extração iniciada
+2024-09-19 15:18:28,599 - INFO - Tratamento iniciado
+2024-09-19 15:18:28,609 - INFO - Extração iniciada
+2024-09-19 15:18:28,609 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:18:30,427 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:18:30,427 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:18:31,529 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:18:45,138 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:18:46,066 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:19:01,776 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 15:19:03,016 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:19:14,374 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-19 15:19:15,473 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 15:19:31,970 - INFO - Processando subcategoria: Beauty - best_sellers
+2024-09-19 15:19:33,929 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 15:19:44,293 - INFO - Processando subcategoria: Boeken - best_sellers
+2024-09-19 15:19:45,486 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 15:20:00,399 - INFO - Processando subcategoria: Cadeaubonnen - best_sellers
+2024-09-19 15:20:01,248 - WARNING - Nenhum item encontrado na categoria Cadeaubonnen na tentativa 1/2.
+2024-09-19 15:20:02,525 - WARNING - Nenhum item encontrado na categoria Cadeaubonnen na tentativa 2/2.
+2024-09-19 15:20:04,531 - ERROR - Falha ao obter produtos da categoria Cadeaubonnen após 2 tentativas.
+2024-09-19 15:20:04,531 - WARNING - Nenhum produto encontrado na subcategoria: Cadeaubonnen - best_sellers
+2024-09-19 15:20:18,616 - INFO - Processando subcategoria: Elektronica - best_sellers
+2024-09-19 15:20:20,530 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 15:20:35,832 - INFO - Processando subcategoria: Films & tv - best_sellers
+2024-09-19 15:20:37,536 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 15:20:53,280 - INFO - Processando subcategoria: Games - best_sellers
+2024-09-19 15:20:55,047 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 15:21:05,544 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - best_sellers
+2024-09-19 15:21:07,385 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 15:21:26,696 - INFO - Processando subcategoria: Huisdierbenodigdheden - best_sellers
+2024-09-19 15:21:29,423 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 15:21:46,433 - INFO - Processando subcategoria: Kantoorproducten - best_sellers
+2024-09-19 15:21:48,197 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 15:22:04,083 - INFO - Processando subcategoria: Kindle Store - best_sellers
+2024-09-19 15:22:05,746 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 15:22:16,066 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - best_sellers
+2024-09-19 15:22:17,777 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 15:22:29,119 - INFO - Processando subcategoria: Klussen & gereedschap - best_sellers
+2024-09-19 15:22:31,037 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 15:22:42,496 - INFO - Processando subcategoria: Knutselen - best_sellers
+2024-09-19 15:22:44,375 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 15:23:04,178 - INFO - Processando subcategoria: Levensmiddelen - best_sellers
+2024-09-19 15:23:06,080 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-19 15:23:17,081 - INFO - Processando subcategoria: Muziek - best_sellers
+2024-09-19 15:23:18,781 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 15:23:33,067 - INFO - Processando subcategoria: Muziekinstrumenten - best_sellers
+2024-09-19 15:23:34,691 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 15:23:53,966 - INFO - Processando subcategoria: Software - best_sellers
+2024-09-19 15:23:55,606 - INFO - Encontrados 30 itens na categoria Software.
+2024-09-19 15:24:10,686 - INFO - Processando subcategoria: Speelgoed & spellen - best_sellers
+2024-09-19 15:24:11,697 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 15:24:25,436 - INFO - Processando subcategoria: Sport & outdoor - best_sellers
+2024-09-19 15:24:26,401 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 15:24:42,853 - INFO - Processando subcategoria: Tuin, terras & gazon - best_sellers
+2024-09-19 15:24:44,538 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 15:25:00,815 - INFO - Processando subcategoria: Wonen & keuken - best_sellers
+2024-09-19 15:25:02,641 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 15:25:18,513 - INFO - Processando subcategoria: Zakelijk, industrie & wetenschap - best_sellers
+2024-09-19 15:25:20,304 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
+2024-09-19 15:25:32,172 - INFO - Produtos de Best Sellers: 750
+2024-09-19 15:25:45,018 - INFO - Iniciando processamento de Movers and Shakers
+2024-09-19 15:25:46,029 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/movers-and-shakers/
+2024-09-19 15:25:46,029 - INFO - Processando subcategoria: Amazon Renewed - movers_and_shakers
+2024-09-19 15:25:47,725 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:26:04,229 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - movers_and_shakers
+2024-09-19 15:26:05,909 - INFO - Encontrados 23 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:26:18,185 - INFO - Processando subcategoria: Auto & motor - movers_and_shakers
+2024-09-19 15:26:19,366 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:26:30,438 - INFO - Processando subcategoria: Babyproducten - movers_and_shakers
+2024-09-19 15:26:32,731 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 15:26:49,488 - INFO - Processando subcategoria: Beauty - movers_and_shakers
+2024-09-19 15:26:50,443 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 15:27:02,263 - INFO - Processando subcategoria: Boeken - movers_and_shakers
+2024-09-19 15:27:03,256 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 15:27:20,058 - INFO - Processando subcategoria: Cadeaubonnen - movers_and_shakers
+2024-09-19 15:27:21,832 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-19 15:27:36,494 - INFO - Processando subcategoria: Elektronica - movers_and_shakers
+2024-09-19 15:27:38,223 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 15:27:52,177 - INFO - Processando subcategoria: Films & tv - movers_and_shakers
+2024-09-19 15:27:53,267 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 15:28:05,211 - INFO - Processando subcategoria: Games - movers_and_shakers
+2024-09-19 15:28:06,228 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 15:28:18,921 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - movers_and_shakers
+2024-09-19 15:28:20,745 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 15:28:37,277 - INFO - Processando subcategoria: Huisdierbenodigdheden - movers_and_shakers
+2024-09-19 15:28:39,022 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 15:28:51,561 - INFO - Processando subcategoria: Kantoorproducten - movers_and_shakers
+2024-09-19 15:28:59,519 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 15:29:11,496 - INFO - Processando subcategoria: Kindle Store - movers_and_shakers
+2024-09-19 15:29:13,144 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 15:29:24,754 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - movers_and_shakers
+2024-09-19 15:29:26,986 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 15:29:45,088 - INFO - Processando subcategoria: Klussen & gereedschap - movers_and_shakers
+2024-09-19 15:29:46,386 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 15:30:03,472 - INFO - Processando subcategoria: Knutselen - movers_and_shakers
+2024-09-19 15:30:04,796 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 15:30:20,565 - INFO - Processando subcategoria: Levensmiddelen - movers_and_shakers
+2024-09-19 15:30:21,770 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-19 15:30:32,488 - INFO - Processando subcategoria: Muziek - movers_and_shakers
+2024-09-19 15:30:34,613 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 15:30:52,969 - INFO - Processando subcategoria: Muziekinstrumenten - movers_and_shakers
+2024-09-19 15:30:54,253 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 15:31:11,687 - INFO - Processando subcategoria: Software - movers_and_shakers
+2024-09-19 15:31:12,923 - INFO - Encontrados 29 itens na categoria Software.
+2024-09-19 15:31:27,655 - INFO - Processando subcategoria: Speelgoed & spellen - movers_and_shakers
+2024-09-19 15:31:28,904 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 15:31:38,958 - INFO - Processando subcategoria: Sport & outdoor - movers_and_shakers
+2024-09-19 15:31:41,538 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 15:31:59,719 - INFO - Processando subcategoria: Tuin, terras & gazon - movers_and_shakers
+2024-09-19 15:32:01,182 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 15:32:18,019 - INFO - Processando subcategoria: Wonen & keuken - movers_and_shakers
+2024-09-19 15:32:19,241 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 15:32:29,505 - INFO - Produtos de Movers and Shakers: 742
+2024-09-19 15:32:47,334 - INFO - Iniciando processamento de New Releases
+2024-09-19 15:32:48,454 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/new-releases/
+2024-09-19 15:32:48,454 - INFO - Processando subcategoria: Amazon Renewed - new_releases
+2024-09-19 15:32:49,448 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
+2024-09-19 15:33:01,109 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - new_releases
+2024-09-19 15:33:02,017 - INFO - Encontrados 15 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:33:20,595 - INFO - Processando subcategoria: Auto & motor - new_releases
+2024-09-19 15:33:20,843 - WARNING - Nenhum item encontrado na categoria Auto & motor na tentativa 1/2.
+2024-09-19 15:33:23,081 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:33:39,343 - INFO - Processando subcategoria: Babyproducten - new_releases
+2024-09-19 15:33:40,560 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 15:33:55,537 - INFO - Processando subcategoria: Beauty - new_releases
+2024-09-19 15:33:56,625 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 15:34:07,891 - INFO - Processando subcategoria: Boeken - new_releases
+2024-09-19 15:34:08,975 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 15:34:21,826 - INFO - Processando subcategoria: Elektronica - new_releases
+2024-09-19 15:34:23,030 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 15:34:33,929 - INFO - Processando subcategoria: Films & tv - new_releases
+2024-09-19 15:34:34,978 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 15:34:52,753 - INFO - Processando subcategoria: Games - new_releases
+2024-09-19 15:34:53,788 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 15:35:04,301 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - new_releases
+2024-09-19 15:35:05,357 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 15:35:23,079 - INFO - Processando subcategoria: Huisdierbenodigdheden - new_releases
+2024-09-19 15:35:24,132 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 15:35:44,093 - INFO - Processando subcategoria: Kantoorproducten - new_releases
+2024-09-19 15:35:45,131 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 15:35:56,337 - INFO - Processando subcategoria: Kindle Store - new_releases
+2024-09-19 15:35:57,394 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 15:36:16,958 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - new_releases
+2024-09-19 15:36:18,381 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 15:36:33,609 - INFO - Processando subcategoria: Klussen & gereedschap - new_releases
+2024-09-19 15:36:34,777 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 15:36:50,295 - INFO - Processando subcategoria: Knutselen - new_releases
+2024-09-19 15:36:51,711 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 15:37:05,310 - INFO - Processando subcategoria: Muziek - new_releases
+2024-09-19 15:37:06,389 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 15:37:24,318 - INFO - Processando subcategoria: Muziekinstrumenten - new_releases
+2024-09-19 15:37:25,317 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 15:37:40,814 - INFO - Processando subcategoria: Speelgoed & spellen - new_releases
+2024-09-19 15:37:42,016 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 15:37:52,612 - INFO - Processando subcategoria: Sport & outdoor - new_releases
+2024-09-19 15:37:53,856 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 15:38:09,333 - INFO - Processando subcategoria: Tuin, terras & gazon - new_releases
+2024-09-19 15:38:10,524 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 15:38:29,461 - INFO - Processando subcategoria: Wonen & keuken - new_releases
+2024-09-19 15:38:30,485 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 15:38:47,391 - INFO - Produtos de New Releases: 632
+2024-09-19 15:38:47,985 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-19.xlsx
+2024-09-19 15:38:47,985 - INFO - Processo finalizado!
+2024-09-19 15:38:47,985 - INFO - Produtos Totais encontrados: 750+742+632/ Total: 2600
+2024-09-19 15:38:47,985 - INFO - Iniciando transformação
+2024-09-19 15:38:48,001 - INFO - Dados limpos e valores inválidos removidos.
+2024-09-19 15:38:48,001 - INFO - Campos calculados adicionados com sucesso.
+2024-09-19 15:38:48,001 - INFO - Transformação finalizada.
+2024-09-19 15:38:48,707 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-19.xlsx.
+2024-09-19 15:38:49,207 - INFO - Conexão com o banco de dados realizada com sucesso!
+2024-09-19 15:38:49,585 - INFO - Dados carregados com sucesso no PostgreSQL - amazon_nl_final.
+2024-09-19 15:46:37,398 - INFO - Extração iniciada
+2024-09-19 15:46:37,398 - INFO - Tratamento iniciado
+2024-09-19 15:46:37,398 - INFO - Extração iniciada
+2024-09-19 15:46:37,398 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:46:41,681 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:46:41,705 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:46:42,897 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:46:56,769 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:46:57,883 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:47:13,468 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 15:47:14,523 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:47:32,901 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-19 15:49:12,014 - INFO - Extração iniciada
+2024-09-19 15:49:12,014 - INFO - Tratamento iniciado
+2024-09-19 15:49:12,021 - INFO - Extração iniciada
+2024-09-19 15:49:12,022 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:49:14,422 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:49:14,429 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:49:15,511 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:49:30,900 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:49:31,826 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:51:10,820 - INFO - Extração iniciada
+2024-09-19 15:51:10,820 - INFO - Tratamento iniciado
+2024-09-19 15:51:10,830 - INFO - Extração iniciada
+2024-09-19 15:51:10,830 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:51:12,021 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:51:12,031 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:51:12,994 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:51:31,219 - INFO - Extração iniciada
+2024-09-19 15:51:31,219 - INFO - Tratamento iniciado
+2024-09-19 15:51:31,229 - INFO - Extração iniciada
+2024-09-19 15:51:31,229 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:51:32,405 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:51:32,414 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:51:33,496 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:51:44,868 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:51:45,963 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:52:10,326 - INFO - Extração iniciada
+2024-09-19 15:52:10,326 - INFO - Tratamento iniciado
+2024-09-19 15:52:10,333 - INFO - Extração iniciada
+2024-09-19 15:52:10,333 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:52:11,550 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:52:11,559 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:52:12,752 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:55:53,478 - INFO - Extração iniciada
+2024-09-19 15:55:53,478 - INFO - Tratamento iniciado
+2024-09-19 15:55:53,489 - INFO - Extração iniciada
+2024-09-19 15:55:53,489 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:55:55,215 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:55:55,215 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:55:56,879 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:56:08,659 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:56:10,175 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:56:24,005 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 15:56:24,911 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:58:31,626 - INFO - Extração iniciada
+2024-09-19 15:58:31,626 - INFO - Tratamento iniciado
+2024-09-19 15:58:31,626 - INFO - Extração iniciada
+2024-09-19 15:58:31,626 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 15:58:32,831 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 15:58:32,831 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 15:58:33,802 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 15:58:53,369 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 15:58:54,487 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 15:59:11,517 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 15:59:12,693 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 15:59:31,019 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-19 15:59:31,266 - WARNING - Nenhum item encontrado na categoria Babyproducten na tentativa 1/2.
+2024-09-19 15:59:33,478 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 16:00:09,996 - INFO - Extração iniciada
+2024-09-19 16:00:09,996 - INFO - Tratamento iniciado
+2024-09-19 16:00:10,006 - INFO - Extração iniciada
+2024-09-19 16:00:10,006 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 16:00:11,193 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 16:00:11,193 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 16:00:12,233 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 16:00:26,752 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 16:00:27,873 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 16:00:46,671 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 16:00:47,906 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 16:15:21,269 - INFO - Extração iniciada
+2024-09-19 16:15:21,269 - INFO - Tratamento iniciado
+2024-09-19 16:15:21,279 - INFO - Extração iniciada
+2024-09-19 16:15:21,279 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 16:15:22,492 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 16:15:22,492 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 16:15:23,663 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 16:15:53,541 - INFO - Extração iniciada
+2024-09-19 16:15:53,541 - INFO - Tratamento iniciado
+2024-09-19 16:15:53,558 - INFO - Extração iniciada
+2024-09-19 16:15:53,558 - INFO - Iniciando processamento de Best Sellers
+2024-09-19 16:15:54,958 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-19 16:15:54,958 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-19 16:15:55,924 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 16:16:14,172 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-19 16:16:15,207 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 16:16:27,199 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-19 16:16:28,574 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 16:16:39,083 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-19 16:16:40,363 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 16:16:56,917 - INFO - Processando subcategoria: Beauty - best_sellers
+2024-09-19 16:16:58,175 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 16:17:08,911 - INFO - Processando subcategoria: Boeken - best_sellers
+2024-09-19 16:17:10,123 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 16:17:29,350 - INFO - Processando subcategoria: Cadeaubonnen - best_sellers
+2024-09-19 16:17:30,329 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-19 16:17:49,191 - INFO - Processando subcategoria: Elektronica - best_sellers
+2024-09-19 16:17:50,294 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 16:18:05,565 - INFO - Processando subcategoria: Films & tv - best_sellers
+2024-09-19 16:18:06,644 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 16:18:17,068 - INFO - Processando subcategoria: Games - best_sellers
+2024-09-19 16:18:18,138 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 16:18:31,889 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - best_sellers
+2024-09-19 16:18:32,995 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 16:18:52,504 - INFO - Processando subcategoria: Huisdierbenodigdheden - best_sellers
+2024-09-19 16:18:53,981 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 16:19:07,036 - INFO - Processando subcategoria: Kantoorproducten - best_sellers
+2024-09-19 16:19:08,295 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 16:19:18,742 - INFO - Processando subcategoria: Kindle Store - best_sellers
+2024-09-19 16:19:19,713 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 16:19:33,971 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - best_sellers
+2024-09-19 16:19:35,279 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 16:19:50,932 - INFO - Processando subcategoria: Klussen & gereedschap - best_sellers
+2024-09-19 16:19:52,165 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 16:20:04,589 - INFO - Processando subcategoria: Knutselen - best_sellers
+2024-09-19 16:20:05,784 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 16:20:19,880 - INFO - Processando subcategoria: Levensmiddelen - best_sellers
+2024-09-19 16:20:20,939 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-19 16:20:32,671 - INFO - Processando subcategoria: Muziek - best_sellers
+2024-09-19 16:20:33,864 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 16:20:52,249 - INFO - Processando subcategoria: Muziekinstrumenten - best_sellers
+2024-09-19 16:20:53,498 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 16:21:09,016 - INFO - Processando subcategoria: Software - best_sellers
+2024-09-19 16:21:10,047 - INFO - Encontrados 30 itens na categoria Software.
+2024-09-19 16:21:22,961 - INFO - Processando subcategoria: Speelgoed & spellen - best_sellers
+2024-09-19 16:21:24,115 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 16:21:36,948 - INFO - Processando subcategoria: Sport & outdoor - best_sellers
+2024-09-19 16:21:38,134 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 16:21:53,627 - INFO - Processando subcategoria: Tuin, terras & gazon - best_sellers
+2024-09-19 16:21:54,732 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 16:22:07,230 - INFO - Processando subcategoria: Wonen & keuken - best_sellers
+2024-09-19 16:22:08,456 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 16:22:22,880 - INFO - Processando subcategoria: Zakelijk, industrie & wetenschap - best_sellers
+2024-09-19 16:22:24,317 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
+2024-09-19 16:22:37,830 - INFO - Produtos de Best Sellers: 780
+2024-09-19 16:22:44,205 - INFO - Iniciando processamento de Movers and Shakers
+2024-09-19 16:22:45,662 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/movers-and-shakers/
+2024-09-19 16:22:45,662 - INFO - Processando subcategoria: Amazon Renewed - movers_and_shakers
+2024-09-19 16:22:46,951 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-19 16:22:57,204 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - movers_and_shakers
+2024-09-19 16:22:58,435 - INFO - Encontrados 23 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 16:23:12,036 - INFO - Processando subcategoria: Auto & motor - movers_and_shakers
+2024-09-19 16:23:13,302 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 16:23:29,823 - INFO - Processando subcategoria: Babyproducten - movers_and_shakers
+2024-09-19 16:23:31,019 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 16:23:45,747 - INFO - Processando subcategoria: Beauty - movers_and_shakers
+2024-09-19 16:23:47,076 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 16:24:00,803 - INFO - Processando subcategoria: Boeken - movers_and_shakers
+2024-09-19 16:24:02,069 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 16:24:15,795 - INFO - Processando subcategoria: Cadeaubonnen - movers_and_shakers
+2024-09-19 16:24:16,887 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-19 16:24:35,830 - INFO - Processando subcategoria: Elektronica - movers_and_shakers
+2024-09-19 16:24:37,120 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 16:24:55,046 - INFO - Processando subcategoria: Films & tv - movers_and_shakers
+2024-09-19 16:24:56,121 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 16:25:12,638 - INFO - Processando subcategoria: Games - movers_and_shakers
+2024-09-19 16:25:13,891 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 16:25:28,752 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - movers_and_shakers
+2024-09-19 16:25:29,971 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 16:25:43,669 - INFO - Processando subcategoria: Huisdierbenodigdheden - movers_and_shakers
+2024-09-19 16:25:45,369 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 16:25:58,048 - INFO - Processando subcategoria: Kantoorproducten - movers_and_shakers
+2024-09-19 16:25:59,279 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 16:26:15,821 - INFO - Processando subcategoria: Kindle Store - movers_and_shakers
+2024-09-19 16:26:17,284 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 16:26:34,255 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - movers_and_shakers
+2024-09-19 16:26:35,424 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 16:26:47,416 - INFO - Processando subcategoria: Klussen & gereedschap - movers_and_shakers
+2024-09-19 16:26:49,719 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 16:27:06,599 - INFO - Processando subcategoria: Knutselen - movers_and_shakers
+2024-09-19 16:27:07,759 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 16:27:24,306 - INFO - Processando subcategoria: Levensmiddelen - movers_and_shakers
+2024-09-19 16:27:25,544 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-19 16:27:36,607 - INFO - Processando subcategoria: Muziek - movers_and_shakers
+2024-09-19 16:27:37,766 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 16:27:55,539 - INFO - Processando subcategoria: Muziekinstrumenten - movers_and_shakers
+2024-09-19 16:27:56,754 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 16:28:09,217 - INFO - Processando subcategoria: Software - movers_and_shakers
+2024-09-19 16:28:11,121 - INFO - Encontrados 26 itens na categoria Software.
+2024-09-19 16:28:26,659 - INFO - Processando subcategoria: Speelgoed & spellen - movers_and_shakers
+2024-09-19 16:28:28,056 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 16:28:40,734 - INFO - Processando subcategoria: Sport & outdoor - movers_and_shakers
+2024-09-19 16:28:42,047 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 16:28:57,285 - INFO - Processando subcategoria: Tuin, terras & gazon - movers_and_shakers
+2024-09-19 16:28:59,168 - WARNING - Nenhum item encontrado na categoria Tuin, terras & gazon na tentativa 1/2.
+2024-09-19 16:29:01,374 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 16:29:11,665 - INFO - Processando subcategoria: Wonen & keuken - movers_and_shakers
+2024-09-19 16:29:12,849 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 16:29:27,252 - INFO - Produtos de Movers and Shakers: 739
+2024-09-19 16:29:32,901 - INFO - Iniciando processamento de New Releases
+2024-09-19 16:29:34,088 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/new-releases/
+2024-09-19 16:29:34,088 - INFO - Processando subcategoria: Amazon Renewed - new_releases
+2024-09-19 16:29:34,989 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
+2024-09-19 16:29:45,436 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - new_releases
+2024-09-19 16:29:46,419 - INFO - Encontrados 15 itens na categoria Amazon-apparaten & accessoires.
+2024-09-19 16:29:57,314 - INFO - Processando subcategoria: Auto & motor - new_releases
+2024-09-19 16:29:58,491 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-19 16:30:11,033 - INFO - Processando subcategoria: Babyproducten - new_releases
+2024-09-19 16:30:12,184 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-19 16:30:23,573 - INFO - Processando subcategoria: Beauty - new_releases
+2024-09-19 16:30:24,860 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-19 16:30:38,349 - INFO - Processando subcategoria: Boeken - new_releases
+2024-09-19 16:30:39,877 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-19 16:30:49,965 - INFO - Processando subcategoria: Elektronica - new_releases
+2024-09-19 16:30:50,759 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-19 16:31:04,210 - INFO - Processando subcategoria: Films & tv - new_releases
+2024-09-19 16:31:05,279 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-19 16:31:21,874 - INFO - Processando subcategoria: Games - new_releases
+2024-09-19 16:31:22,868 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-19 16:31:41,828 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - new_releases
+2024-09-19 16:31:42,868 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-19 16:31:59,066 - INFO - Processando subcategoria: Huisdierbenodigdheden - new_releases
+2024-09-19 16:32:00,216 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-19 16:32:19,985 - INFO - Processando subcategoria: Kantoorproducten - new_releases
+2024-09-19 16:32:20,998 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-19 16:32:37,604 - INFO - Processando subcategoria: Kindle Store - new_releases
+2024-09-19 16:32:38,554 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-19 16:32:56,863 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - new_releases
+2024-09-19 16:32:57,711 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-19 16:33:15,505 - INFO - Processando subcategoria: Klussen & gereedschap - new_releases
+2024-09-19 16:33:16,647 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-19 16:33:28,959 - INFO - Processando subcategoria: Knutselen - new_releases
+2024-09-19 16:33:29,935 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-19 16:33:42,705 - INFO - Processando subcategoria: Muziek - new_releases
+2024-09-19 16:33:43,808 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-19 16:34:02,971 - INFO - Processando subcategoria: Muziekinstrumenten - new_releases
+2024-09-19 16:34:04,204 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-19 16:34:19,265 - INFO - Processando subcategoria: Speelgoed & spellen - new_releases
+2024-09-19 16:34:20,361 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-19 16:34:40,125 - INFO - Processando subcategoria: Sport & outdoor - new_releases
+2024-09-19 16:34:41,346 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-19 16:34:59,781 - INFO - Processando subcategoria: Tuin, terras & gazon - new_releases
+2024-09-19 16:35:00,949 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-19 16:35:11,151 - INFO - Processando subcategoria: Wonen & keuken - new_releases
+2024-09-19 16:35:11,999 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-19 16:35:25,557 - INFO - Produtos de New Releases: 632
+2024-09-19 16:35:26,120 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-19.xlsx
+2024-09-19 16:35:26,121 - INFO - Processo finalizado!
+2024-09-19 16:35:26,121 - INFO - Produtos Totais encontrados: 780+739+632/ Total: 2600
+2024-09-19 16:35:26,122 - INFO - Iniciando transformação
+2024-09-19 16:35:26,131 - INFO - Dados limpos e valores inválidos removidos.
+2024-09-19 16:35:26,133 - INFO - Campos calculados adicionados com sucesso.
+2024-09-19 16:35:26,133 - INFO - Transformação finalizada.
+2024-09-19 16:35:26,515 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-19.xlsx.
+2024-09-19 16:35:26,952 - INFO - Conexão com o banco de dados realizada com sucesso!
+2024-09-19 16:35:27,312 - INFO - Dados carregados com sucesso no PostgreSQL - amazon_nl_final.
+2024-09-20 10:20:58,794 - INFO - Extração iniciada
+2024-09-20 10:20:58,795 - INFO - Tratamento iniciado
+2024-09-20 10:20:58,804 - INFO - Extração iniciada
+2024-09-20 10:20:58,805 - INFO - Iniciando processamento de Best Sellers
+2024-09-20 10:20:59,876 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-20 10:20:59,876 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-20 10:21:00,977 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-20 10:21:20,705 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-20 10:21:21,778 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-20 10:21:35,232 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-20 10:21:36,343 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-20 10:21:54,784 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-20 10:21:55,984 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-20 10:22:11,116 - INFO - Processando subcategoria: Beauty - best_sellers
+2024-09-20 10:22:12,872 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-20 10:22:25,934 - INFO - Processando subcategoria: Boeken - best_sellers
+2024-09-20 10:22:27,286 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-20 10:22:40,212 - INFO - Processando subcategoria: Cadeaubonnen - best_sellers
+2024-09-20 10:22:41,164 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-20 10:22:55,494 - INFO - Processando subcategoria: Elektronica - best_sellers
+2024-09-20 10:22:56,674 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-20 10:23:13,644 - INFO - Processando subcategoria: Films & tv - best_sellers
+2024-09-20 10:23:14,633 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-20 10:23:28,018 - INFO - Processando subcategoria: Games - best_sellers
+2024-09-20 10:23:29,004 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-20 10:23:43,349 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - best_sellers
+2024-09-20 10:23:44,789 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-20 10:23:54,833 - INFO - Processando subcategoria: Huisdierbenodigdheden - best_sellers
+2024-09-20 10:23:56,443 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-20 10:24:06,975 - INFO - Processando subcategoria: Kantoorproducten - best_sellers
+2024-09-20 10:24:08,000 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-20 10:24:24,853 - INFO - Processando subcategoria: Kindle Store - best_sellers
+2024-09-20 10:24:25,764 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-20 10:24:39,012 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - best_sellers
+2024-09-20 10:24:40,200 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-20 10:24:56,981 - INFO - Processando subcategoria: Klussen & gereedschap - best_sellers
+2024-09-20 10:24:58,200 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-20 10:25:15,047 - INFO - Processando subcategoria: Knutselen - best_sellers
+2024-09-20 10:25:16,161 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-20 10:25:30,828 - INFO - Processando subcategoria: Levensmiddelen - best_sellers
+2024-09-20 10:25:32,041 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-20 10:25:42,092 - INFO - Processando subcategoria: Muziek - best_sellers
+2024-09-20 10:25:43,104 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-20 10:26:01,358 - INFO - Processando subcategoria: Muziekinstrumenten - best_sellers
+2024-09-20 10:26:02,377 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-20 10:26:17,653 - INFO - Processando subcategoria: Software - best_sellers
+2024-09-20 10:26:18,821 - INFO - Encontrados 30 itens na categoria Software.
+2024-09-20 10:26:34,623 - INFO - Processando subcategoria: Speelgoed & spellen - best_sellers
+2024-09-20 10:26:35,875 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-20 10:26:50,122 - INFO - Processando subcategoria: Sport & outdoor - best_sellers
+2024-09-20 10:26:51,440 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-20 10:27:06,153 - INFO - Processando subcategoria: Tuin, terras & gazon - best_sellers
+2024-09-20 10:27:07,300 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-20 10:27:23,557 - INFO - Processando subcategoria: Wonen & keuken - best_sellers
+2024-09-20 10:27:24,880 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-20 10:27:37,080 - INFO - Processando subcategoria: Zakelijk, industrie & wetenschap - best_sellers
+2024-09-20 10:27:38,218 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
+2024-09-20 10:27:57,552 - INFO - Produtos de Best Sellers: 780
+2024-09-20 10:28:02,839 - INFO - Iniciando processamento de Movers and Shakers
+2024-09-20 10:28:03,922 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/movers-and-shakers/
+2024-09-20 10:28:03,922 - INFO - Processando subcategoria: Amazon Renewed - movers_and_shakers
+2024-09-20 10:28:05,253 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-20 10:28:23,783 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - movers_and_shakers
+2024-09-20 10:28:24,865 - INFO - Encontrados 24 itens na categoria Amazon-apparaten & accessoires.
+2024-09-20 10:28:43,831 - INFO - Processando subcategoria: Auto & motor - movers_and_shakers
+2024-09-20 10:28:45,102 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-20 10:28:59,641 - INFO - Processando subcategoria: Babyproducten - movers_and_shakers
+2024-09-20 10:29:00,801 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-20 10:29:19,080 - INFO - Processando subcategoria: Beauty - movers_and_shakers
+2024-09-20 10:29:20,364 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-20 10:29:35,015 - INFO - Processando subcategoria: Boeken - movers_and_shakers
+2024-09-20 10:29:36,354 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-20 10:29:47,332 - INFO - Processando subcategoria: Cadeaubonnen - movers_and_shakers
+2024-09-20 10:29:48,335 - INFO - Encontrados 28 itens na categoria Cadeaubonnen.
+2024-09-20 10:30:02,809 - INFO - Extração iniciada
+2024-09-20 10:30:02,809 - INFO - Tratamento iniciado
+2024-09-20 10:30:02,819 - INFO - Extração iniciada
+2024-09-20 10:30:02,819 - INFO - Iniciando processamento de Best Sellers
+2024-09-20 10:30:03,937 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-20 10:30:03,937 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-20 10:30:05,020 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-20 10:30:05,691 - INFO - Processando subcategoria: Elektronica - movers_and_shakers
+2024-09-20 10:30:06,954 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-20 10:30:23,257 - INFO - Processando subcategoria: Films & tv - movers_and_shakers
+2024-09-20 10:30:24,470 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-20 10:30:40,945 - INFO - Processando subcategoria: Games - movers_and_shakers
+2024-09-20 10:30:42,726 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-20 10:31:00,177 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - movers_and_shakers
+2024-09-20 10:31:02,015 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-20 10:31:16,993 - INFO - Processando subcategoria: Huisdierbenodigdheden - movers_and_shakers
+2024-09-20 10:31:18,809 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-20 10:31:37,870 - INFO - Processando subcategoria: Kantoorproducten - movers_and_shakers
+2024-09-20 10:31:39,200 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-20 10:31:50,957 - INFO - Processando subcategoria: Kindle Store - movers_and_shakers
+2024-09-20 10:31:52,065 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-20 10:32:05,180 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - movers_and_shakers
+2024-09-20 10:32:06,436 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-20 10:32:21,815 - INFO - Processando subcategoria: Klussen & gereedschap - movers_and_shakers
+2024-09-20 10:32:22,847 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-20 10:32:35,171 - INFO - Processando subcategoria: Knutselen - movers_and_shakers
+2024-09-20 10:32:36,380 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-20 10:32:49,010 - INFO - Processando subcategoria: Levensmiddelen - movers_and_shakers
+2024-09-20 10:32:50,795 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-20 10:33:08,612 - INFO - Processando subcategoria: Muziek - movers_and_shakers
+2024-09-20 10:33:09,738 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-20 10:33:26,787 - INFO - Processando subcategoria: Muziekinstrumenten - movers_and_shakers
+2024-09-20 10:33:27,953 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-20 10:33:38,822 - INFO - Processando subcategoria: Software - movers_and_shakers
+2024-09-20 10:33:39,997 - INFO - Encontrados 30 itens na categoria Software.
+2024-09-20 10:33:51,971 - INFO - Processando subcategoria: Speelgoed & spellen - movers_and_shakers
+2024-09-20 10:33:53,162 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-20 10:34:11,004 - INFO - Processando subcategoria: Sport & outdoor - movers_and_shakers
+2024-09-20 10:34:12,177 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-20 10:34:24,599 - INFO - Processando subcategoria: Tuin, terras & gazon - movers_and_shakers
+2024-09-20 10:34:26,329 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-20 10:34:44,801 - INFO - Processando subcategoria: Wonen & keuken - movers_and_shakers
+2024-09-20 10:34:45,953 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-20 10:35:02,327 - INFO - Produtos de Movers and Shakers: 742
+2024-09-20 10:35:10,563 - INFO - Iniciando processamento de New Releases
+2024-09-20 10:35:11,437 - WARNING - Nenhuma subcategoria encontrada na tentativa 1/2 para a URL: https://www.amazon.nl/gp/new-releases/
+2024-09-20 10:35:14,065 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/new-releases/
+2024-09-20 10:35:14,065 - INFO - Processando subcategoria: Amazon Renewed - new_releases
+2024-09-20 10:35:14,955 - INFO - Encontrados 17 itens na categoria Amazon Renewed.
+2024-09-20 10:35:29,717 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - new_releases
+2024-09-20 10:35:31,156 - INFO - Encontrados 15 itens na categoria Amazon-apparaten & accessoires.
+2024-09-20 10:35:51,069 - INFO - Processando subcategoria: Auto & motor - new_releases
+2024-09-20 10:35:52,062 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-20 10:36:04,961 - INFO - Processando subcategoria: Babyproducten - new_releases
+2024-09-20 10:36:05,890 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-20 10:36:23,709 - INFO - Processando subcategoria: Beauty - new_releases
+2024-09-20 10:36:24,671 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-20 10:36:39,059 - INFO - Processando subcategoria: Boeken - new_releases
+2024-09-20 10:36:40,137 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-20 10:36:50,798 - INFO - Processando subcategoria: Elektronica - new_releases
+2024-09-20 10:36:51,894 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-20 10:37:04,970 - INFO - Processando subcategoria: Films & tv - new_releases
+2024-09-20 10:37:06,467 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-20 10:37:21,653 - INFO - Processando subcategoria: Games - new_releases
+2024-09-20 10:37:23,334 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-20 10:37:40,840 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - new_releases
+2024-09-20 10:37:41,965 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-20 10:37:57,097 - INFO - Processando subcategoria: Huisdierbenodigdheden - new_releases
+2024-09-20 10:37:58,044 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-20 10:38:11,162 - INFO - Processando subcategoria: Kantoorproducten - new_releases
+2024-09-20 10:38:12,308 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-20 10:38:22,762 - INFO - Processando subcategoria: Kindle Store - new_releases
+2024-09-20 10:38:23,680 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-20 10:38:35,116 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - new_releases
+2024-09-20 10:38:36,294 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-20 10:38:52,483 - INFO - Processando subcategoria: Klussen & gereedschap - new_releases
+2024-09-20 10:38:53,722 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-20 10:39:09,385 - INFO - Processando subcategoria: Knutselen - new_releases
+2024-09-20 10:39:10,395 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-20 10:39:24,013 - INFO - Processando subcategoria: Muziek - new_releases
+2024-09-20 10:39:25,066 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-20 10:39:37,908 - INFO - Processando subcategoria: Muziekinstrumenten - new_releases
+2024-09-20 10:39:38,931 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-20 10:39:54,182 - INFO - Processando subcategoria: Speelgoed & spellen - new_releases
+2024-09-20 10:39:55,601 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-20 10:40:15,190 - INFO - Processando subcategoria: Sport & outdoor - new_releases
+2024-09-20 10:40:16,202 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-20 10:40:27,380 - INFO - Processando subcategoria: Tuin, terras & gazon - new_releases
+2024-09-20 10:40:28,576 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-20 10:40:44,977 - INFO - Processando subcategoria: Wonen & keuken - new_releases
+2024-09-20 10:40:45,192 - WARNING - Nenhum item encontrado na categoria Wonen & keuken na tentativa 1/2.
+2024-09-20 10:40:46,420 - WARNING - Nenhum item encontrado na categoria Wonen & keuken na tentativa 2/2.
+2024-09-20 10:40:48,421 - ERROR - Falha ao obter produtos da categoria Wonen & keuken após 2 tentativas.
+2024-09-20 10:40:48,421 - WARNING - Nenhum produto encontrado na subcategoria: Wonen & keuken - new_releases
+2024-09-20 10:41:02,331 - INFO - Produtos de New Releases: 602
+2024-09-20 10:41:02,915 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract_amazon_full_2024-09-20.xlsx
+2024-09-20 10:41:02,915 - INFO - Processo finalizado!
+2024-09-20 10:41:02,915 - INFO - Produtos Totais encontrados: 780+742+602/ Total: 2600
+2024-09-20 10:41:02,915 - INFO - Iniciando transformação
+2024-09-20 10:41:02,930 - INFO - Dados limpos e valores inválidos removidos.
+2024-09-20 10:41:02,930 - INFO - Campos calculados adicionados com sucesso.
+2024-09-20 10:41:02,930 - INFO - Transformação finalizada.
+2024-09-20 10:41:03,432 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/base_amazon_final_2024-09-20.xlsx.
+2024-09-20 10:41:03,964 - INFO - Conexão com o banco de dados realizada com sucesso!
+2024-09-20 10:41:04,375 - INFO - Dados carregados com sucesso no PostgreSQL - amazon_nl_final.
