@@ -7,212 +7,48 @@ import plotly.express as px
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
+import time
 
 # Cache para carregar dados
 @st.cache_data
 def load_data():
     return get_data()
-
+#--------------------------------------------------------------------------------------------------------------------------------
 def show_page():
-# Título com foco em boas práticas de design para páginas web
-    def render_title_with_date(selected_date_range):
-        st.markdown(f"""
-            <style>
-            /* Animação suave */
-            @keyframes fadeIn {{
-                0% {{ opacity: 0; transform: translateY(-10px); }}
-                100% {{ opacity: 1; transform: translateY(0); }}
-            }}
-
-            /* Contêiner do título */
-            .title-container {{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                margin-bottom: 30px;
-                padding: 10px 0;
-                border-bottom: 2px solid #E0E0E0;
-                animation: fadeIn 1.5s ease-in-out;
-            }}
-
-            /* Título principal */
-            .title-left {{
-                font-size: 58px;
-                font-weight: 700;
-                color: #34495E; /* Cor mais viva */
-                margin: 0;
-                padding: 0;
-            }}
-
-            /* Linha separadora */
-            .separator {{
-                width: 100px;
-                height: 4px;
-                background-color: #3498DB;
-                border-radius: 2px;
-                margin-top: 8px;
-            }}
-
-            /* Subtítulo com data */
-            .subtitle {{
-                font-size: 18px;
-                color: #7D7D7D;
-                font-weight: 400;
-                margin-top: 8px;
-            }}
-            
-            /* Animação de hover para o título */
-            .title-left:hover {{
-                color: #2980B9;
-                transform: scale(1.05);
-            }}
-            </style>
-
-            <div class="title-container">
-                <div class="title-left">DADOS AMAZON.NL - BEST SELLERS</div>
-                <div class="separator"></div>
-                <div class="subtitle">Data Selecionada: {selected_date_range[0]} até {selected_date_range[1]}</div>
-            </div>
-        """, unsafe_allow_html=True)
-
-    # CSS para melhorar os KPIs com fundo preto, tamanhos uniformes e estilo profissional
-    st.markdown("""
-        <style>
-        /* Estilos de Contêiner dos KPIs */
-        .kpi-container {
-            background-color: #202020;
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            color: #FFFFFF;
-            width: 100%;  
-            min-height: 150px;  
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .kpi-container:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
-        }
-
-        /* Estilos do Título e Valores */
-        .kpi-title {
-            font-size: 20px;
-            font-weight: 500;
-            margin-bottom: 10px;
-            color: #BBBBBB;
-        }
-        .kpi-value {
-            font-size: 40px;
-            font-weight: bold;
-            color: #00FFAA;
-        }
-        .kpi-delta {
-            font-size: 16px;
-            color: #FF5733;
-        }
-
-        /* Layout Responsivo */
-        .kpi-row {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-        .kpi-column {
-            flex: 1;
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .kpi-row {
-                flex-direction: column;
-            }
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-      # CSS para personalização dos indicadores
-    st.markdown("""
-        <style>
-        /* CSS dos indicadores */
-        .highlight-box {
-            #background-color: #202020;
-            border-radius: 12px;
-            padding: 15px;
-            margin: 10px 0;
-            color: white;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .highlight-box:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
-        }
-        .highlight-title {
-            font-size: 20px;
-            font-weight: bold;
-            color: #00FFAA;
-        }
-        .highlight-value {
-            font-size: 20px;
-            font-weight: bold;
-            color: #FFFFFF;
-        }
-        .highlight-details {
-            font-size: 18px;
-            color: #AAAAAA;
-            margin-top: 5px;
-        }
-        .highlight-img {
-            margin-top: 10px;
-            border-radius: 10px;
-            width: 280px;
-        }
-        /* Layout responsivo para organizar os indicadores */
-        .kpi-row {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .kpi-box {
-            flex: 1;
-            min-width: 250px;
-            max-width: 300px;
-        }
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .kpi-row {
-                flex-direction: column;
-            }
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
+    
+    # Título da página com data
+    #def render_title_with_date(selected_date_range):
+        #st.markdown(f"""
+            #<div class="title-container">
+                #<div class="title-left">DADOS AMAZON.NL - BEST SELLERS</div>
+                #<div class="separator"></div>
+                #<div class="subtitle">Data Selecionada: {selected_date_range[0]} até {selected_date_range[1]}</div>
+            #</div>
+        #""", unsafe_allow_html=True)
+#--------------------------------------------------------------------------------------------------------------------------------
     # Carregar os dados com indicador visual de carregamento
     with st.spinner('Carregando dados...'):
         df = load_data()
 
-    # Filtros interativos
-    st.sidebar.title("Filtros Interativos")
+#--------------------------------------------------------------------------------------------------------------------------------
+# Filtros interativos
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.sidebar.title("Filtros")
+
     min_date = df['date'].min().date()
     max_date = df['date'].max().date()
 
     date_range = st.sidebar.date_input("Selecione o intervalo de datas", [max_date, max_date], 
-                                       min_value=min_date, max_value=max_date, key="best_sellers_date")
-    
-    min_value, max_value = st.sidebar.slider("Selecione o intervalo de valor (value)", 
-                                             float(df['value'].min()), float(df['value'].max()), 
-                                             (float(df['value'].min()), float(df['value'].max())), key="best_sellers_value")
-    
+                                       min_value=min_date, max_value=max_date, key="best_sellers_date")  
+  
     selected_categories = st.sidebar.multiselect("Selecione a(s) categoria(s)", ['Todas as Categorias'] + list(df['category'].unique()), key="best_sellers_category")
     
     keyword = st.sidebar.text_input("Digite uma palavra-chave no nome do produto", key="best_sellers_keyword")
+
+    min_value, max_value = st.sidebar.slider("Selecione o intervalo de valor EUR", 
+                                             float(df['value'].min()), float(df['value'].max()), 
+                                             (float(df['value'].min()), float(df['value'].max())), key="best_sellers_value")
 
     # Aplicar filtros
     df_filtered = apply_filters(df, date_range, min_value, max_value, selected_categories, keyword)
@@ -221,68 +57,94 @@ def show_page():
     df_filtered = df_filtered[df_filtered['origin'] == 'best_sellers']
 
     selected_date_range = [max_date, max_date]  # Substitua com as datas reais dos filtros
-    render_title_with_date(selected_date_range)
+    #render_title_with_date(selected_date_range)
+
+#--------------------------------------------------------------------------------------------------------------------------------
 
     # Cálculo de KPIs com cache
     @st.cache_data
     def load_kpis(filtered_data):
         return calculate_kpis(filtered_data)
 
-    kpis = load_kpis(df_filtered)
+    kpis = calculate_kpis(df_filtered)
 
-    # Exibição dos KPIs
-    st.markdown('<div class="kpi-row">', unsafe_allow_html=True)
+    # Função para limitar o número de caracteres em um nome
+    def limitar_caracteres(texto, max_chars=20):
+        return texto if len(texto) <= max_chars else texto[:max_chars] + '...'
     
+#--------------------------------------------------------------------------------------------------------------------------------
+    # Exibição dos KPIs em três colunas
+#--------------------------------------------------------------------------------------------------------------------------------    
+
     col1, col2, col3 = st.columns(3)
+
+    # Coluna 1: Categoria com a maior média de score
     with col1:
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Categoria com a maior média de score</div>
+            <div class="kpi-title">Categoria mais recomendada</div>
             <div class="kpi-value">{kpis['categoria_maior_score']}</div>
-            <div class="kpi-delta">↑ {kpis['comparacao_score']:.2f}% acima da média geral</div>
+            <div class="kpi-delta">Score comparado com todas as categorias: ↑ {kpis['comparacao_score']:.2f}%</div>
         </div>
         """, unsafe_allow_html=True)
 
+    # Coluna 2: Produto que apareceu mais vezes no Top 5
     with col2:
+        nome_produto_top5 = limitar_caracteres(kpis['produto_top_5_frequente'], max_chars=20)
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Categoria com o maior valor total</div>
-            <div class="kpi-value">€ {kpis['valor_total_categoria']:.2f}</div>
+            <div class="kpi-title">Produto mais frequente no Top 5</div>
+            <div class="kpi-value">{nome_produto_top5}</div>
+            <div class="kpi-delta">Percentual de vezes no Top 5: {kpis['top_5_score']:.2f}% do total</div>
         </div>
         """, unsafe_allow_html=True)
 
+    # Coluna 3: Produto com maior crescimento de reviews
     with col3:
+        nome_produto_reviews = limitar_caracteres(kpis['produto_crescimento_reviews'], max_chars=20)
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Total de produtos no dia</div>
-            <div class="kpi-value">{kpis['total_produtos']}</div>
+            <div class="kpi-title">Produto com maior cresc. de reviews </div>
+            <div class="kpi-value">{nome_produto_reviews}</div>
+            <div class="kpi-delta">Aumento de reviews: ↑ {kpis['comparacao_reviews']:.2f}%</div>
         </div>
         """, unsafe_allow_html=True)
 
-    st.markdown('</div>', unsafe_allow_html=True)  # Fechar a primeira linha de KPIs
+#--------------------------------------------------------------------------------------------------------------------------------
+# Título da seção: Top 3 Categorias com Média de Score Mais Alta
+#--------------------------------------------------------------------------------------------------------------------------------  
+#   
+    st.markdown("<div class='section-title'>Top 3 Categorias</div>", unsafe_allow_html=True)
 
-    st.markdown('<div class="kpi-row">', unsafe_allow_html=True)
-    
-      # TOP 3 CATEGORIAS COM MÉDIA DE SCORE MAIS ALTA
-    st.markdown("### Top 3 Categorias com Média de Score Mais Alta")
+    # Agrupando as 3 categorias com maior média de score
     top_3_categories = df_filtered.groupby('category')['score'].mean().nlargest(3).reset_index()
 
-    st.markdown('<div class="kpi-row">', unsafe_allow_html=True)
-    for i, row in top_3_categories.iterrows():
-        icon = "🏆" if i == 0 else ("🥈" if i == 1 else "🥉")
-        st.markdown(f"""
-        <div class='kpi-box'>
-            <div class='highlight-box'>
-                <div class='highlight-title'>{icon} {row['category']}</div>
-                <div class='highlight-value'>Média de Score: {row['score']:.2f}</div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+    # Criar três colunas para os três indicadores
+    col1, col2, col3 = st.columns(3)  # Divide em três colunas para exibir na horizontal
 
-    # TOP 3 PRODUTOS POR RANK DAS TOP CATEGORIAS (DIVIDIR EM 3 COLUNAS)
-    st.markdown("### Top 3 Produtos por Rank das Top Categorias")
-    
+    # Exibir os resultados em cada coluna
+    for i, row in enumerate(top_3_categories.iterrows()):
+        # Usar a medalha de ouro para o primeiro lugar e as outras medalhas para os demais
+        icon = "🥇" if i == 0 else ("🥈" if i == 1 else "🥉")
+
+        col = [col1, col2, col3][i]  # Seleciona a coluna correspondente
+
+        # Exibir o conteúdo na coluna
+        with col:
+            st.markdown(f"""
+            <div class='kpi-box'>
+                <div class='highlight-box'>
+                    <div class='sub-indicator-title'>{icon} {row[1]['category']}</div>
+                    <div class='highlight-value'>Score: {row[1]['score']:.2f}</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+#--------------------------------------------------------------------------------------------------------------------------------
+# TOP 3 PRODUTOS POR RANK DAS TOP CATEGORIAS (DIVIDIR EM 3 COLUNAS)
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>Top 3 Produtos por categoria</div>", unsafe_allow_html=True)
+
     for i, row in top_3_categories.iterrows():
         category = row['category']
         st.markdown(f"#### {category}")
@@ -298,7 +160,11 @@ def show_page():
                 <div class='highlight-box'> 
                     <div class='highlight-details'>Rank: {product[1]['rank']}</div>                   
                     <img src="{product[1]['image']}" class='highlight-img'/>
-                    <div class='highlight-title'>{product[1]['name']}</div>
+                    <div class='highlight-title'>
+                        <a href="{product[1]['link']}" target="_blank" style="text-decoration: none; color: inherit;">
+                            {product[1]['name']}
+                        </a>
+                    </div>
                     <div class='highlight-value'>€{product[1]['value']:.2f}</div>
                     <div class='highlight-details'>Reviews: {product[1]['reviews']}</div>
                     <div class='highlight-details'>Score: {product[1]['score']}</div>
@@ -306,8 +172,11 @@ def show_page():
                 </div>
                 """, unsafe_allow_html=True)
 
-    # TOP 3 PRODUTOS POR SCORE NO TOTAL DA BASE (EM LINHA)
-    st.markdown("### Top 3 Produtos por Score no Total da Base")
+#--------------------------------------------------------------------------------------------------------------------------------
+ # TOP 3 PRODUTOS POR SCORE NO TOTAL DA BASE (EM LINHA)
+ #--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>Top 3 Produtos por Score</div>", unsafe_allow_html=True)
     top_3_products_by_score = df_filtered.nlargest(3, 'score')
 
     col1, col2, col3 = st.columns(3)
@@ -317,16 +186,23 @@ def show_page():
             st.markdown(f"""
             <div class='highlight-box'>
                 <img src="{product[1]['image']}" class='highlight-img'/>
-                <div class='highlight-title'>{product[1]['name']}</div>                
+                <div class='highlight-title'>
+                        <a href="{product[1]['link']}" target="_blank" style="text-decoration: none; color: inherit;">
+                            {product[1]['name']}
+                        </a>                
                 <div class='highlight-value'>€{product[1]['value']:.2f}</div>
                 <div class='highlight-details'>Reviews: {product[1]['reviews']}</div>
                 <div class='highlight-details'>Score: {product[1]['score']}</div>
                 <div class='highlight-details'>Rating: {product[1]['rating']}</div>
+                <div class='highlight-details'>Categoria: {product[1]['category']}</div>
             </div>
             """, unsafe_allow_html=True)
 
-    # TOP 3 PRODUTOS MAIS POPULARES (MAIS REVIEWS) (EM LINHA)
-    st.markdown("### Top 3 Produtos Mais Populares (Mais Reviews)")
+#--------------------------------------------------------------------------------------------------------------------------------
+# TOP 3 PRODUTOS MAIS POPULARES (MAIS REVIEWS) (EM LINHA)
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>Top 3 Produtos mais populares (reviews)</div>", unsafe_allow_html=True)
     top_3_products_by_reviews = df_filtered.nlargest(3, 'reviews')
 
     col1, col2, col3 = st.columns(3)
@@ -336,62 +212,77 @@ def show_page():
             st.markdown(f"""
             <div class='highlight-box'>
                 <img src="{product[1]['image']}" class='highlight-img'/>
-                <div class='highlight-title'>{product[1]['name']}</div>                
+                <div class='highlight-title'>
+                        <a href="{product[1]['link']}" target="_blank" style="text-decoration: none; color: inherit;">
+                            {product[1]['name']}
+                        </a>
+                    </div>               
                 <div class='highlight-value'>€{product[1]['value']:.2f}</div>
                 <div class='highlight-details'>Reviews: {product[1]['reviews']}</div>
                 <div class='highlight-details'>Rating: {product[1]['rating']}</div>
+                <div class='highlight-details'>Categoria: {product[1]['category']}</div>
             </div>
             """, unsafe_allow_html=True)
 
-    # Gráfico de Pareto \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-    render_pareto_chart(df_filtered)
+#--------------------------------------------------------------------------------------------------------------------------------
+    # Nuvem de palavras
+    st.subheader("PALAVRAS MAIS FREQUENTES")
+    text = " ".join(name for name in df_filtered['name'])
+    wordcloud = WordCloud(background_color="white", colormap="Blues", width=600, height=200).generate(text)
+    fig, ax = plt.subplots()
+    ax.imshow(wordcloud, interpolation='bilinear')
+    ax.axis("off")
+    st.pyplot(fig)
 
+#--------------------------------------------------------------------------------------------------------------------------------
+    # Gráfico de Pareto
+    st.subheader("PARETO POR CATEGORIA")
+    render_pareto_chart(df_filtered)
+#--------------------------------------------------------------------------------------------------------------------------------
     # Gráfico de dispersão
     if 'value' in df_filtered.columns and 'reviews' in df_filtered.columns and 'category' in df_filtered.columns:
         df_filtered = df_filtered.dropna(subset=['value', 'reviews', 'category'])
 
         if not df_filtered.empty:
-            st.subheader("Dispersão por Produto - Valor x Reviews")
+            st.subheader("PRODUTOS - VALOR X REVIEW")
             scatter_chart = px.scatter(df_filtered, x='value', y='reviews', color='category', 
-                                       hover_data=['name', 'value', 'reviews'], template='plotly_white', 
-                                       title="Dispersão de Valor x Reviews")
+                                       hover_data=['name', 'value', 'reviews'], template='plotly_white'
+                                       )
             st.plotly_chart(scatter_chart, use_container_width=True)
         else:
             st.write("Não há dados suficientes para gerar o gráfico de dispersão.")
     else:
         st.write("As colunas necessárias para gerar o gráfico não estão disponíveis.")
 
-    # Nuvem de palavras
-    st.subheader("Nuvem de Palavras dos Produtos")
-    text = " ".join(name for name in df_filtered['name'])
-    wordcloud = WordCloud(background_color="white", colormap="Blues", width=800, height=400).generate(text)
-    fig, ax = plt.subplots()
-    ax.imshow(wordcloud, interpolation='bilinear')
-    ax.axis("off")
-    st.pyplot(fig)
-
+#--------------------------------------------------------------------------------------------------------------------------------
     # Tabela de produtos populares com ordenação
-    st.subheader("Top Produtos por Score")
+    st.subheader("PRODUTOS POR SCORE")
     top_produtos_score = df_filtered.nlargest(10, 'score')
     st.dataframe(top_produtos_score[['name', 'category', 'value', 'reviews', 'score', 'rating']].sort_values(by='score', ascending=False))
-   
-       # Função para exibir o Top 3 por Rank em cada categoria
+#--------------------------------------------------------------------------------------------------------------------------------   
+    # Função para exibir o Top 3 por Rank em cada categoria
+#--------------------------------------------------------------------------------------------------------------------------------
     def top_3_by_rank_per_category(df):
         # Filtrar para pegar os 3 produtos com menor rank em cada categoria
         top_3_rank_per_category = df.groupby('category').apply(lambda x: x.nsmallest(3, 'rank')).reset_index(drop=True)
         
         # Exibir a tabela
-        st.subheader("Top 3 Produtos por Rank em Cada Categoria")
+        st.subheader("TOP 3 PRODUTOS POR CATEGORIA")
         st.dataframe(top_3_rank_per_category[['category', 'name', 'rank', 'score', 'reviews', 'value']])
 
     # Exibir Top 3 por rank em cada categoria
     top_3_by_rank_per_category(df_filtered)
-
-    # Total produtos
-
-    # Tabela de produtos populares com ordenação
+#--------------------------------------------------------------------------------------------------------------------------------
+    # Tabela de produtos completos
+#--------------------------------------------------------------------------------------------------------------------------------
     st.subheader("BASE COMPLETA")
     st.dataframe(df[['category', 'rank', 'asin', 'name', 'title', 'currency', 
                               'value', 'reviews', 'rating', 'score', 'link',
                               'date' , 'origin']].sort_values(by='score', ascending=False))
-       
+ #--------------------------------------------------------------------------------------------------------------------------------   
+
+
+
+
+
+

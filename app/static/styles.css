@@ -1,27 +1,247 @@
-.kpi-block {
-    text-align: center;
-    padding: 20px;
-    background-color: #333333;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    color: #FFFFFF;
+/* Estilo geral para o fundo do app */
+body {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
 }
 
+/* Menu lateral */
+.sidebar .sidebar-content {
+    background-color: #1C1C1C; /* Cinza escuro */
+    padding: 10px;
+    border-right: 1px solid #333333; /* Borda à direita */
+}
+
+/* Estilos de Contêiner dos KPIs */
+.kpi-container {
+    background-color: #202020; /* Fundo dos KPIs */
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;  
+    min-height: 150px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Animação suave */
+}
+
+.kpi-container:hover {
+    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); /* Sombra ao passar o mouse */
+}
+
+/* Títulos e valores dos KPIs */
 .kpi-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #AAAAAA;
+    font-size: 20px;
+    font-weight: 500;
+    color: #BBBBBB; /* Cor dos títulos */
 }
 
 .kpi-value {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 10px;
-    color: #00FF00;
+    color: #00FFAA; /* Cor dos valores */
 }
 
-.kpi-subtext {
-    font-size: 14px;
-    color: #888888;
+.kpi-delta {
+    font-size: 16px;
+    color: rgb(170, 250, 159); /* Cor do delta (ex.: crescimento) */
+}
+
+/* Layout responsivo para KPIs */
+.kpi-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.kpi-column {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .kpi-row {
+        flex-direction: column; /* Responsividade para telas menores */
+    }
+}
+
+/* Estilos das caixas de destaque */
+.highlight-box {
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+}
+
+.highlight-box:hover {
+    transform: scale(1.05); /* Aumenta ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1); /* Sombra suave */
+}
+
+/* Estilos para o conteúdo das caixas de destaque */
+.highlight-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00FFAA; /* Cor do título dentro da caixa */
+}
+
+.highlight-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF; /* Cor do valor dentro da caixa */
+}
+
+.highlight-details {
+    font-size: 18px;
+    color: #AAAAAA; /* Cor dos detalhes */
+    margin-top: 5px;
+}
+
+.highlight-img {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 280px; /* Tamanho da imagem */
+}
+
+/* Layout responsivo para caixas de destaque */
+.kpi-box {
+    flex: 1;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+/* Responsividade para organizar os indicadores em telas menores */
+@media (max-width: 768px) {
+    .kpi-row {
+        flex-direction: column;
+    }
+}
+
+/* Estilo do botão */
+.stButton button {
+    background-color: #00FFAA; /* Verde claro */
+    color: #FFFFFF;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animação no hover */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stButton button:hover {
+    background-color: #00FFAA; /* Cor mais clara ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ao passar o mouse */
+}
+
+/* Animação suave para títulos */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    animation: fadeIn 1.5s ease-in-out; /* Animação de entrada */
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Estilo dos títulos principais */
+.title-left {
+    font-size: 68px;
+    font-weight: 700;
+    color: #FFFFFF; /* Cor branca para o título */
+    margin: 0;
+    padding: 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.title-left:hover {
+    color: #00FFAA; /* Mudança de cor ao passar o mouse */
+    transform: scale(1.05); /* Aumento ao passar o mouse */
+}
+
+/* Separador para títulos */
+.separator {
+    width: 100%;
+    height: 4px;
+    background-color: #00FFAA; /* Verde claro */
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+/* Estilo dos subtítulos */
+.subtitle {
+    font-size: 18px;
+    color: #7D7D7D;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+/* Estilo geral para títulos de seções */
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #c4c2c0; /* Cinza claro */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Títulos em letras maiúsculas */
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #c4c2c0; /* Separador abaixo do título */
+    margin-top: 8px;
+    border-radius: 2px;
+}
+
+/* Estilo geral para subtítulos de indicadores */
+.sub-indicator-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #00FFAA; /* Verde claro */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Separadores para subtítulos de categorias dentro de indicadores */
+.category-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #c4c2c0; /* Cinza claro */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.category-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #c4c2c0; /* Separador abaixo do subtítulo */
+    margin-top: 5px;
+    border-radius: 1px;
+}
+
+/* Subtítulos de cada indicador */
+.indicator-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: #AAAAAA; /* Cor cinza para subtítulos */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

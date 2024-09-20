@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Configuração do logging
 logging.basicConfig(
-    filename="C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/logs/load_data.log",
+    filename="C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/logs/load_data.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )

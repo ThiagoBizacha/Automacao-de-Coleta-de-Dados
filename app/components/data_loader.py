@@ -20,6 +20,6 @@ def get_data():
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
 
         # Filtrar as categorias indesejadas
-    df = df[~df['category'].isin(['Cadeaubonnen', 'Kindle Store'])]
+    #df = df[~df['category'].isin(['Cadeaubonnen', 'Kindle Store'])]
 
     return df

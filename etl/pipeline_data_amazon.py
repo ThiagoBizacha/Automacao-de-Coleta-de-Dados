@@ -23,6 +23,11 @@ def main_pipeline():
 
     # Carga: O DataFrame limpo é passado para a função de carga para ser salvo
     load_data_amazon.load_data(df_transformed)
+    print("Carga excel final finalizada")
+
+    # Carga dos dados no banco de dados PostgreSQL
+    load_postgresql.load_to_postgresql_bruto(df_consolidated)
+    print("Carga bruta SQL finalizada")
 
     # Carga dos dados no banco de dados PostgreSQL
     load_postgresql.load_to_postgresql(df_transformed)

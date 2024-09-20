@@ -38,7 +38,6 @@ def render_pareto_chart(df_filtered):
 
     # Definir o layout do gráfico de Pareto
     fig_pareto.update_layout(
-        title="Pareto da Média de Score por Categoria",
         yaxis=dict(title='Média de Score'),
         yaxis2=dict(title='Acumulado %', overlaying='y', side='right', range=[0, 100]),
         template='plotly_dark',
