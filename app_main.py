@@ -1,6 +1,15 @@
+import sys
+import os
+
+# Adiciona o diretório raiz do projeto ao sys.path para encontrar o módulo 'config'
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Carregar as configurações do ambiente
+from config.environment_setup import get_environment_settings
+get_environment_settings()
+
 import streamlit as st
 from streamlit_option_menu import option_menu
-import os
 import base64
 
 # Configuração de layout
