@@ -18,10 +18,10 @@ logging.info(f"Extração iniciada")
 def load_to_postgresql(df):
     """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
     conn = psycopg2.connect(
-        host="localhost",
-        database="proj_dropshipping",
+        host="db-thiago-390438668051.cniie2kemucx.us-east-2.rds.amazonaws.com",
+        database="postgres",
         user="postgres",
-        password="admin"
+        password="M3GFMwk3BteZfZyJVz4Y"
     )
     logging.info(f"Conexão com o banco de dados realizada com sucesso!")  
     print("Conexão com o banco de dados realizada com sucesso!")
@@ -54,10 +54,10 @@ def load_to_postgresql_bruto(df):
     """Carrega os dados do DataFrame no banco de dados bruto PostgreSQL."""
     # Conectando ao banco de dados
     conn = psycopg2.connect(
-        host="localhost",
-        database="proj_dropshipping",
+        host="db-thiago-390438668051.cniie2kemucx.us-east-2.rds.amazonaws.com",
+        database="postgres",
         user="postgres",
-        password="admin"
+        password="M3GFMwk3BteZfZyJVz4Y"
     )
     print("Conexão com o banco de dados extract_amazon_full realizada com sucesso!")
 
