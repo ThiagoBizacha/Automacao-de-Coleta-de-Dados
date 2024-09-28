@@ -25,10 +25,10 @@ logging.info(f"Extração iniciada")
 def load_to_postgresql(df):
     """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
     # Obter credenciais do .env
-    host = os.getenv('DB_HOST')
-    database = os.getenv('DB_NAME')
-    user = os.getenv('DB_USER')
-    password = os.getenv('DB_PASSWORD')
+    host = "db-thiago-390438668051.cniie2kemucx.us-east-2.rds.amazonaws.com"
+    database = "postgres"
+    user = "postgres"
+    password = "M3GFMwk3BteZfZyJVz4Y"
 
     conn = psycopg2.connect(
         host=host,
@@ -66,10 +66,10 @@ def load_to_postgresql(df):
 def load_to_postgresql_bruto(df):
     """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
     # Obter credenciais do .env
-    host = os.getenv('DB_HOST')
-    database = os.getenv('DB_NAME')
-    user = os.getenv('DB_USER')
-    password = os.getenv('DB_PASSWORD')
+    host = "db-thiago-390438668051.cniie2kemucx.us-east-2.rds.amazonaws.com"
+    database = "postgres"
+    user = "postgres"
+    password = "M3GFMwk3BteZfZyJVz4Y"
 
     conn = psycopg2.connect(
         host=host,
