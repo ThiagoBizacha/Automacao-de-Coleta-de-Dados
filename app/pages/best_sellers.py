@@ -7,6 +7,7 @@ from wordcloud import WordCloud
 from app.components.data_loader import get_data
 from app.components.filters import apply_filters
 from app.components.kpi_calculator import calculate_kpis
+from app.components.kpi_calculator import produto_top_5_frequente
 from app.components.visualizations import render_pareto_chart
 
 # Cache para carregar dados
@@ -68,10 +69,32 @@ def show_page():
 
     kpis = calculate_kpis(df_filtered)
 
+    # Calcular o novo KPI produto mais frequente no Top 3
+    produto_frequente, percentual_top_3 = produto_top_5_frequente(df)
+
     # Função para limitar o número de caracteres em um nome
-    def limitar_caracteres(texto, max_chars=20):
+    def limitar_caracteres(texto, max_chars=30):
         return texto if len(texto) <= max_chars else texto[:max_chars] + '...'
     
+#--------------------------------------------------------------------------------------------------------------------------------
+        # Exibição do card com a data atual selecionada e o total de produtos
+#--------------------------------------------------------------------------------------------------------------------------------    
+
+    # Data selecionada e total de produtos na base filtrada
+    data_selecionada = selected_date_range[1]  # Data final do intervalo
+    total_produtos = f"{len(df):,.0f}".replace(",", ".")
+
+    # Exibir o card com a data selecionada e o total de produtos
+    st.markdown(f"""
+    <div class="kpi-box">
+        <div style="display: inline-block; font-weight: bold; margin-right: 10px;">Total de produtos extraídos:</div>
+        <div style="display: inline-block;">{total_produtos}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Pular uma linha entre os blocos
+    st.markdown("<br>", unsafe_allow_html=True)
+
 #--------------------------------------------------------------------------------------------------------------------------------
     # Exibição dos KPIs em três colunas
 #--------------------------------------------------------------------------------------------------------------------------------    
@@ -88,24 +111,36 @@ def show_page():
         </div>
         """, unsafe_allow_html=True)
 
-    # Coluna 2: Produto que apareceu mais vezes no Top 5
+    # Coluna 2: Produto mais frequente no Top 3 com link
     with col2:
-        nome_produto_top5 = limitar_caracteres(kpis['produto_top_5_frequente'], max_chars=20)
+        nome_produto_top3 = limitar_caracteres(produto_frequente, max_chars=20)
+        link_produto_top3 = df[df['name'] == produto_frequente]['link'].values[0]
+        
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Produto mais frequente no Top 3</div>
-            <div class="kpi-value">{nome_produto_top5}</div>
-            <div class="kpi-delta">Percentual de vezes no Top 3: {kpis['top_5_score']:.2f}% do total</div>
+            <div class="kpi-title">Produto mais frequente no Top 5</div>
+            <div class="kpi-value">
+                <a href="{link_produto_top3}" target="_blank" style="text-decoration: none; color: inherit;">
+                    {nome_produto_top3}
+                </a>
+            </div>
+            <div class="kpi-delta">Percentual de vezes no Top 5: {percentual_top_3:.2f}% do total</div>
         </div>
         """, unsafe_allow_html=True)
 
-    # Coluna 3: Produto com maior crescimento de reviews
+    # Coluna 3: Produto com maior crescimento de reviews com link
     with col3:
         nome_produto_reviews = limitar_caracteres(kpis['produto_crescimento_reviews'], max_chars=20)
+        link_produto_reviews = df_filtered[df_filtered['name'] == kpis['produto_crescimento_reviews']]['link'].values[0]
+        
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Produto com maior cresc. de reviews </div>
-            <div class="kpi-value">{nome_produto_reviews}</div>
+            <div class="kpi-title">Produto com maior cresc. de reviews</div>
+            <div class="kpi-value">
+                <a href="{link_produto_reviews}" target="_blank" style="text-decoration: none; color: inherit;">
+                    {nome_produto_reviews}
+                </a>
+            </div>
             <div class="kpi-delta">Aumento de reviews: ↑ {kpis['comparacao_reviews']:.2f}%</div>
         </div>
         """, unsafe_allow_html=True)

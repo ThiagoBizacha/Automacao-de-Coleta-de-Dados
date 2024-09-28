@@ -1,3 +1,30 @@
+def produto_top_5_frequente(df):
+    if df.empty or 'rank' not in df.columns or 'date' not in df.columns or 'asin' not in df.columns:
+        return 'Nenhum dado', 0
+
+    # Filtrar produtos com rank <= 5 (Top 5)
+    top_5_df = df[df['rank'] <= 5]
+
+    if top_5_df.empty:
+        return 'Nenhum dado', 0
+
+    # Contar quantas vezes cada "asin" apareceu no Top 3 durante o período
+    asin_frequencia = top_5_df.groupby('asin')['date'].nunique()
+
+    # Encontrar o asin mais frequente
+    asin_mais_frequente = asin_frequencia.idxmax()
+    vezes_entre_top_3 = asin_frequencia.max()
+
+    # Encontrar o nome correspondente ao asin mais frequente
+    produto_frequente = df[df['asin'] == asin_mais_frequente]['name'].values[0]
+
+    # Calcular o percentual de vezes no Top 3
+    total_dias_analisados = df['date'].nunique()
+    percentual_top_3 = (vezes_entre_top_3 / total_dias_analisados) * 100
+
+    return produto_frequente, percentual_top_3
+
+
 def calculate_kpis(df):
     kpis = {
         'categoria_maior_score': 'Nenhum dado',
@@ -33,9 +60,9 @@ def calculate_kpis(df):
         # Valor total da categoria com maior valor
         kpis['valor_total_categoria'] = df.groupby('category')['value'].sum().max()
 
-        # Produto mais frequente no Top 3
+        # Produto mais frequente no Top 5
         if 'rank' in df.columns:
-            top_5_df = df[df['rank'] <= 3]
+            top_5_df = df[df['rank'] <= 5]
             if not top_5_df.empty:
                 kpis['produto_top_5_frequente'] = top_5_df['name'].value_counts().idxmax()
                 total_top_5 = len(top_5_df)

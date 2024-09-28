@@ -2,5 +2,6 @@
 __pycache__/
 venv/
 backups/
-data/logs/
-docs/Apresentações
+data/
+docs/
+config/.env

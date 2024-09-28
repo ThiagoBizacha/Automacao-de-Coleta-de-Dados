@@ -79,7 +79,7 @@ if menu == 'Principal':
     # Título da página com data
     st.markdown(f"""
         <div class="title-container">
-            <div class="title-left">DADOS AMAZON.NL - BEST SELLERS</div>
+            <div class="title-left">DADOS AMAZON.NL - BETA</div>
             <div class="separator"></div>
         </div>
     """, unsafe_allow_html=True)
