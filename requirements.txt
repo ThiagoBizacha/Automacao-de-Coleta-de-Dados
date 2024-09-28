@@ -8,3 +8,4 @@ lxml
 tqdm
 numpy
 streamlit-option-menu
+wordcloud
