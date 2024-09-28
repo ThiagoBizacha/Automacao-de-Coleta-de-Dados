@@ -7,10 +7,10 @@ def get_data():
     Conecta ao banco de dados PostgreSQL e retorna o DataFrame com os dados da Amazon.
     """
     conn = psycopg2.connect(
-        host="localhost",
-        database="proj_dropshipping",
+        host="db-thiago-390438668051.cniie2kemucx.us-east-2.rds.amazonaws.com",
+        database="postgres",
         user="postgres",
-        password="admin"
+        password="M3GFMwk3BteZfZyJVz4Y"
     )
     query = "SELECT * FROM public.amazon_nl_final;"
     df = pd.read_sql(query, conn)
