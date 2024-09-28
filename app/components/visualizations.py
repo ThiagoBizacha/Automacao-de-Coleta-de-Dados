@@ -9,7 +9,7 @@ def render_pareto_chart(df_filtered):
         return
 
     # Agrupamento e cálculo da média de score por categoria
-    pareto_chart = df_filtered.groupby('category')['score'].mean().reset_index()
+    pareto_chart = df_filtered.groupby('category')['score'].quantile(0.75).reset_index()
     pareto_chart = pareto_chart.sort_values(by='score', ascending=False)
 
     if pareto_chart.empty:
@@ -24,7 +24,7 @@ def render_pareto_chart(df_filtered):
 
     # Adicionar gráfico de barras para a média de score por categoria
     fig_pareto.add_trace(go.Bar(
-        x=pareto_chart['category'], y=pareto_chart['score'], name='Média de Score',
+        x=pareto_chart['category'], y=pareto_chart['score'], name='3° quartil Score',
         marker_color='rgb(55, 83, 109)', text=pareto_chart['score'].round(2),
         hovertemplate="Categoria: %{x}<br>Média de Score: %{y}"
     ))
@@ -38,7 +38,7 @@ def render_pareto_chart(df_filtered):
 
     # Definir o layout do gráfico de Pareto
     fig_pareto.update_layout(
-        yaxis=dict(title='Média de Score'),
+        yaxis=dict(title='3° quartil Score'),
         yaxis2=dict(title='Acumulado %', overlaying='y', side='right', range=[0, 100]),
         template='plotly_dark',
         showlegend=True

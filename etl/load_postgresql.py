@@ -1,3 +1,5 @@
+##### CARGA FINAL POSTGRESQL
+
 import psycopg2
 import logging 
 import os
@@ -48,18 +50,18 @@ def load_to_postgresql(df):
     logging.info(f"Dados carregados com sucesso no PostgreSQL - amazon_nl_final.") 
     print("Dados carregados com sucesso no PostgreSQL - amazon_nl_final.")
 
-#//////////////////////// Carga de dados brutos/////////////////////////////
+#//////////////////////// ##### CARGA BRUTA POSTGRESQL/////////////////////////////
 
 def load_to_postgresql_bruto(df):
-    """Carrega os dados do DataFrame no banco de dados bruto PostgreSQL."""
-    # Conectando ao banco de dados
+    """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
     conn = psycopg2.connect(
         host="localhost",
         database="proj_dropshipping",
         user="postgres",
         password="admin"
     )
-    print("Conexão com o banco de dados extract_amazon_full realizada com sucesso!")
+    logging.info(f"Conexão com o banco de dados realizada com sucesso!")  
+    print("Conexão com o banco de dados realizada com sucesso!")
 
     cursor = conn.cursor()
 

@@ -33,9 +33,9 @@ def calculate_kpis(df):
         # Valor total da categoria com maior valor
         kpis['valor_total_categoria'] = df.groupby('category')['value'].sum().max()
 
-        # Produto mais frequente no Top 5
+        # Produto mais frequente no Top 3
         if 'rank' in df.columns:
-            top_5_df = df[df['rank'] <= 5]
+            top_5_df = df[df['rank'] <= 3]
             if not top_5_df.empty:
                 kpis['produto_top_5_frequente'] = top_5_df['name'].value_counts().idxmax()
                 total_top_5 = len(top_5_df)

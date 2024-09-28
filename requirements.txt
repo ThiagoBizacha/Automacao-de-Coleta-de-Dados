@@ -1,7 +1,9 @@
-streamlit
 pandas
+psycopg2
+streamlit
 plotly
 matplotlib
-wordcloud
-psycopg2
-
+requests
+lxml
+tqdm
+numpy

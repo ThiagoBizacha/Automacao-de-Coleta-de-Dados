@@ -1,7 +1,5 @@
 import os
 
-import os
-
 def get_environment_settings():
     # Definir o ambiente (dev, test, prod) via variável de ambiente
     environment = os.getenv('ENV', 'development')  # O padrão será 'development'

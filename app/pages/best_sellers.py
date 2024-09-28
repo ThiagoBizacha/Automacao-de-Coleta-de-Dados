@@ -1,13 +1,13 @@
 import streamlit as st
+import plotly.express as px
+import matplotlib.pyplot as plt
+import pandas as pd
+import time
+from wordcloud import WordCloud
 from app.components.data_loader import get_data
 from app.components.filters import apply_filters
 from app.components.kpi_calculator import calculate_kpis
 from app.components.visualizations import render_pareto_chart
-import plotly.express as px
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import pandas as pd
-import time
 
 # Cache para carregar dados
 @st.cache_data
@@ -93,9 +93,9 @@ def show_page():
         nome_produto_top5 = limitar_caracteres(kpis['produto_top_5_frequente'], max_chars=20)
         st.markdown(f"""
         <div class="kpi-container">
-            <div class="kpi-title">Produto mais frequente no Top 5</div>
+            <div class="kpi-title">Produto mais frequente no Top 3</div>
             <div class="kpi-value">{nome_produto_top5}</div>
-            <div class="kpi-delta">Percentual de vezes no Top 5: {kpis['top_5_score']:.2f}% do total</div>
+            <div class="kpi-delta">Percentual de vezes no Top 3: {kpis['top_5_score']:.2f}% do total</div>
         </div>
         """, unsafe_allow_html=True)
 
@@ -117,7 +117,7 @@ def show_page():
     st.markdown("<div class='section-title'>Top 3 Categorias</div>", unsafe_allow_html=True)
 
     # Agrupando as 3 categorias com maior média de score
-    top_3_categories = df_filtered.groupby('category')['score'].mean().nlargest(3).reset_index()
+    top_3_categories = df_filtered.groupby('category')['score'].quantile(0.75).nlargest(3).reset_index()
 
     # Criar três colunas para os três indicadores
     col1, col2, col3 = st.columns(3)  # Divide em três colunas para exibir na horizontal
@@ -143,7 +143,7 @@ def show_page():
 # TOP 3 PRODUTOS POR RANK DAS TOP CATEGORIAS (DIVIDIR EM 3 COLUNAS)
 #--------------------------------------------------------------------------------------------------------------------------------
 
-    st.markdown("<div class='section-title'>Top 3 Produtos por categoria</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-title'>Rank - Produtos por categoria</div>", unsafe_allow_html=True)
 
     for i, row in top_3_categories.iterrows():
         category = row['category']

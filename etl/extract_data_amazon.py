@@ -297,7 +297,7 @@ def process_category(category_url, category_type):
 def extract_data():
     print("Extração iniciada")
 
-    directory_path = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon"
+    directory_path = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract"
 
     # Lista para armazenar os produtos de todas as categorias
     all_products = []
@@ -353,6 +353,6 @@ def extract_data():
 
     return df_consolidated
 
-if __name__ == "__main__":
-    extract_data()
-    print("Finalizado")
+#if __name__ == "__main__":
+    #extract_data()
+    #print("Finalizado")

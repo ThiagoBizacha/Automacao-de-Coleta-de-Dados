@@ -4,7 +4,6 @@ import os
 # Adiciona o diretório raiz do projeto ao sys.path para encontrar o módulo 'config'
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-
 import extract_data_amazon  # Importa o módulo de extração
 import transform_data_amazon  # Importa o módulo de transformação
 import load_data_amazon  # Importa o módulo de carga
