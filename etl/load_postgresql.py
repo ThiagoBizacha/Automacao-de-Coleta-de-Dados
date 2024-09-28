@@ -3,6 +3,11 @@
 import psycopg2
 import logging 
 import os
+from dotenv import load_dotenv
+
+# Caminho absoluto do arquivo .env baseado no diretório de trabalho atual
+project_root = os.getcwd()
+dotenv_path = os.path.join(project_root, 'config', '.env')
 
 # Diretório para salvar os logs
 log_directory = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/logs/"
@@ -19,11 +24,17 @@ logging.info(f"Extração iniciada")
 
 def load_to_postgresql(df):
     """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
+    # Obter credenciais do .env
+    host = os.getenv('DB_HOST')
+    database = os.getenv('DB_NAME')
+    user = os.getenv('DB_USER')
+    password = os.getenv('DB_PASSWORD')
+
     conn = psycopg2.connect(
-        host="localhost",
-        database="proj_dropshipping",
-        user="postgres",
-        password="admin"
+        host=host,
+        database=database,
+        user=user,
+        password=password
     )
     logging.info(f"Conexão com o banco de dados realizada com sucesso!")  
     print("Conexão com o banco de dados realizada com sucesso!")
@@ -54,11 +65,17 @@ def load_to_postgresql(df):
 
 def load_to_postgresql_bruto(df):
     """Carrega os dados do DataFrame no banco de dados PostgreSQL."""
+    # Obter credenciais do .env
+    host = os.getenv('DB_HOST')
+    database = os.getenv('DB_NAME')
+    user = os.getenv('DB_USER')
+    password = os.getenv('DB_PASSWORD')
+
     conn = psycopg2.connect(
-        host="localhost",
-        database="proj_dropshipping",
-        user="postgres",
-        password="admin"
+        host=host,
+        database=database,
+        user=user,
+        password=password
     )
     logging.info(f"Conexão com o banco de dados realizada com sucesso!")  
     print("Conexão com o banco de dados realizada com sucesso!")

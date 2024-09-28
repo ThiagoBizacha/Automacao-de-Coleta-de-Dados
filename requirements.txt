@@ -9,3 +9,4 @@ tqdm
 numpy
 streamlit-option-menu
 wordcloud
+python-dotenv
