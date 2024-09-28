@@ -114,6 +114,14 @@ body {
     flex: 1;
     min-width: 350px;
     max-width: 500px;
+    text-align: right;
+}
+
+/* Layout responsivo para caixas de destaque */
+.kpi-box-2 {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
 }
 
 /* Responsividade para organizar os indicadores em telas menores */

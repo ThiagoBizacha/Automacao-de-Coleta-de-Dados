@@ -73,7 +73,7 @@ def show_page():
     produto_frequente, percentual_top_3 = produto_top_5_frequente(df)
 
     # Função para limitar o número de caracteres em um nome
-    def limitar_caracteres(texto, max_chars=30):
+    def limitar_caracteres(texto, max_chars=20):
         return texto if len(texto) <= max_chars else texto[:max_chars] + '...'
     
 #--------------------------------------------------------------------------------------------------------------------------------
@@ -81,16 +81,25 @@ def show_page():
 #--------------------------------------------------------------------------------------------------------------------------------    
 
     # Data selecionada e total de produtos na base filtrada
-    data_selecionada = selected_date_range[1]  # Data final do intervalo
+    ultima_data = pd.to_datetime(df['date'].max()).strftime('%d/%m/%Y')  # Formata a data
     total_produtos = f"{len(df):,.0f}".replace(",", ".")
 
+    col1, col2 = st.columns(2)
+
     # Exibir o card com a data selecionada e o total de produtos
-    st.markdown(f"""
-    <div class="kpi-box">
-        <div style="display: inline-block; font-weight: bold; margin-right: 10px;">Total de produtos extraídos:</div>
-        <div style="display: inline-block;">{total_produtos}</div>
-    </div>
-    """, unsafe_allow_html=True)
+    with col1:
+        st.markdown(f"""
+        <div class="kpi-box-2">
+            <p><strong>Última data de extração:</strong> {ultima_data}</p>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.markdown(f"""
+        <div class="kpi-box-2">
+             <p><strong>Total de produtos extraídos:</strong> {total_produtos}</p>
+        </div>
+        """, unsafe_allow_html=True)
 
     # Pular uma linha entre os blocos
     st.markdown("<br>", unsafe_allow_html=True)
