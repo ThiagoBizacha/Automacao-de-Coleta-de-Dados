@@ -2725,3 +2725,169 @@
 2024-09-27 12:58:04,909 - INFO - Conexão com o banco de dados realizada com sucesso!
 2024-09-27 12:58:05,303 - INFO - Conexão com o banco de dados realizada com sucesso!
 2024-09-27 12:58:05,599 - INFO - Dados carregados com sucesso no PostgreSQL - amazon_nl_final.
+2024-09-28 03:53:29,219 - INFO - Extração iniciada
+2024-09-28 03:53:29,235 - INFO - Tratamento iniciado
+2024-09-28 03:53:29,251 - INFO - Extração iniciada
+2024-09-28 03:53:29,251 - INFO - Iniciando processamento de Best Sellers
+2024-09-28 03:53:30,498 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/bestsellers/
+2024-09-28 03:53:30,498 - INFO - Processando subcategoria: Amazon Renewed - best_sellers
+2024-09-28 03:53:31,529 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-28 03:53:50,888 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - best_sellers
+2024-09-28 03:53:51,991 - INFO - Encontrados 30 itens na categoria Amazon-apparaten & accessoires.
+2024-09-28 03:54:08,919 - INFO - Processando subcategoria: Auto & motor - best_sellers
+2024-09-28 03:54:09,910 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-28 03:54:21,588 - INFO - Processando subcategoria: Babyproducten - best_sellers
+2024-09-28 03:54:22,809 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-28 03:54:36,891 - INFO - Processando subcategoria: Beauty - best_sellers
+2024-09-28 03:54:38,107 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-28 03:54:52,455 - INFO - Processando subcategoria: Boeken - best_sellers
+2024-09-28 03:54:53,531 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-28 03:55:08,843 - INFO - Processando subcategoria: Cadeaubonnen - best_sellers
+2024-09-28 03:55:09,787 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-28 03:55:26,549 - INFO - Processando subcategoria: Elektronica - best_sellers
+2024-09-28 03:55:27,779 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-28 03:55:41,552 - INFO - Processando subcategoria: Films & tv - best_sellers
+2024-09-28 03:55:42,722 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-28 03:55:56,567 - INFO - Processando subcategoria: Games - best_sellers
+2024-09-28 03:55:57,683 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-28 03:56:17,241 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - best_sellers
+2024-09-28 03:56:18,497 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-28 03:56:31,510 - INFO - Processando subcategoria: Huisdierbenodigdheden - best_sellers
+2024-09-28 03:56:32,594 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-28 03:56:48,071 - INFO - Processando subcategoria: Kantoorproducten - best_sellers
+2024-09-28 03:56:49,142 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-28 03:57:07,599 - INFO - Processando subcategoria: Kindle Store - best_sellers
+2024-09-28 03:57:08,609 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-28 03:57:24,013 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - best_sellers
+2024-09-28 03:57:25,108 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-28 03:57:43,188 - INFO - Processando subcategoria: Klussen & gereedschap - best_sellers
+2024-09-28 03:57:44,577 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-28 03:58:00,568 - INFO - Processando subcategoria: Knutselen - best_sellers
+2024-09-28 03:58:01,783 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-28 03:58:14,892 - INFO - Processando subcategoria: Levensmiddelen - best_sellers
+2024-09-28 03:58:15,962 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-28 03:58:34,109 - INFO - Processando subcategoria: Muziek - best_sellers
+2024-09-28 03:58:35,217 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-28 03:58:49,728 - INFO - Processando subcategoria: Muziekinstrumenten - best_sellers
+2024-09-28 03:58:50,939 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-28 03:59:08,256 - INFO - Processando subcategoria: Software - best_sellers
+2024-09-28 03:59:10,199 - INFO - Encontrados 30 itens na categoria Software.
+2024-09-28 03:59:25,780 - INFO - Processando subcategoria: Speelgoed & spellen - best_sellers
+2024-09-28 03:59:27,106 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-28 03:59:40,297 - INFO - Processando subcategoria: Sport & outdoor - best_sellers
+2024-09-28 03:59:41,516 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-28 03:59:54,993 - INFO - Processando subcategoria: Tuin, terras & gazon - best_sellers
+2024-09-28 03:59:56,222 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-28 04:00:06,728 - INFO - Processando subcategoria: Wonen & keuken - best_sellers
+2024-09-28 04:00:07,909 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-28 04:00:22,952 - INFO - Processando subcategoria: Zakelijk, industrie & wetenschap - best_sellers
+2024-09-28 04:00:24,038 - INFO - Encontrados 30 itens na categoria Zakelijk, industrie & wetenschap.
+2024-09-28 04:00:34,712 - INFO - Produtos de Best Sellers: 780
+2024-09-28 04:00:44,345 - INFO - Iniciando processamento de Movers and Shakers
+2024-09-28 04:00:45,593 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/movers-and-shakers/
+2024-09-28 04:00:45,593 - INFO - Processando subcategoria: Amazon Renewed - movers_and_shakers
+2024-09-28 04:00:46,821 - INFO - Encontrados 30 itens na categoria Amazon Renewed.
+2024-09-28 04:01:02,117 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - movers_and_shakers
+2024-09-28 04:01:03,294 - INFO - Encontrados 28 itens na categoria Amazon-apparaten & accessoires.
+2024-09-28 04:01:20,268 - INFO - Processando subcategoria: Auto & motor - movers_and_shakers
+2024-09-28 04:01:21,604 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-28 04:01:34,416 - INFO - Processando subcategoria: Babyproducten - movers_and_shakers
+2024-09-28 04:01:35,697 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-28 04:01:46,068 - INFO - Processando subcategoria: Beauty - movers_and_shakers
+2024-09-28 04:01:47,289 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-28 04:01:57,674 - INFO - Processando subcategoria: Boeken - movers_and_shakers
+2024-09-28 04:01:58,890 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-28 04:02:14,446 - INFO - Processando subcategoria: Cadeaubonnen - movers_and_shakers
+2024-09-28 04:02:15,415 - INFO - Encontrados 30 itens na categoria Cadeaubonnen.
+2024-09-28 04:02:32,895 - INFO - Processando subcategoria: Elektronica - movers_and_shakers
+2024-09-28 04:02:34,083 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-28 04:02:53,903 - INFO - Processando subcategoria: Films & tv - movers_and_shakers
+2024-09-28 04:02:55,022 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-28 04:03:06,840 - INFO - Processando subcategoria: Games - movers_and_shakers
+2024-09-28 04:03:08,053 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-28 04:03:23,650 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - movers_and_shakers
+2024-09-28 04:03:24,829 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-28 04:03:40,464 - INFO - Processando subcategoria: Huisdierbenodigdheden - movers_and_shakers
+2024-09-28 04:03:41,672 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-28 04:03:52,117 - INFO - Processando subcategoria: Kantoorproducten - movers_and_shakers
+2024-09-28 04:03:53,330 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-28 04:04:10,883 - INFO - Processando subcategoria: Kindle Store - movers_and_shakers
+2024-09-28 04:04:12,050 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-28 04:04:24,406 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - movers_and_shakers
+2024-09-28 04:04:25,571 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-28 04:04:44,028 - INFO - Processando subcategoria: Klussen & gereedschap - movers_and_shakers
+2024-09-28 04:04:45,247 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-28 04:05:03,585 - INFO - Processando subcategoria: Knutselen - movers_and_shakers
+2024-09-28 04:05:04,831 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-28 04:05:19,921 - INFO - Processando subcategoria: Levensmiddelen - movers_and_shakers
+2024-09-28 04:05:21,185 - INFO - Encontrados 30 itens na categoria Levensmiddelen.
+2024-09-28 04:05:33,426 - INFO - Processando subcategoria: Muziek - movers_and_shakers
+2024-09-28 04:05:34,707 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-28 04:05:44,906 - INFO - Processando subcategoria: Muziekinstrumenten - movers_and_shakers
+2024-09-28 04:05:46,205 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-28 04:05:58,702 - INFO - Processando subcategoria: Software - movers_and_shakers
+2024-09-28 04:06:00,436 - INFO - Encontrados 4 itens na categoria Software.
+2024-09-28 04:06:20,264 - INFO - Processando subcategoria: Speelgoed & spellen - movers_and_shakers
+2024-09-28 04:06:21,586 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-28 04:06:37,320 - INFO - Processando subcategoria: Sport & outdoor - movers_and_shakers
+2024-09-28 04:06:38,567 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-28 04:06:53,497 - INFO - Processando subcategoria: Tuin, terras & gazon - movers_and_shakers
+2024-09-28 04:06:54,676 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-28 04:07:08,653 - INFO - Processando subcategoria: Wonen & keuken - movers_and_shakers
+2024-09-28 04:07:09,919 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-28 04:07:23,373 - INFO - Produtos de Movers and Shakers: 722
+2024-09-28 04:07:28,881 - INFO - Iniciando processamento de New Releases
+2024-09-28 04:07:30,034 - INFO - Links de subcategorias encontrados para a URL: https://www.amazon.nl/gp/new-releases/
+2024-09-28 04:07:30,035 - INFO - Processando subcategoria: Amazon Renewed - new_releases
+2024-09-28 04:07:31,065 - INFO - Encontrados 19 itens na categoria Amazon Renewed.
+2024-09-28 04:07:45,803 - INFO - Processando subcategoria: Amazon-apparaten & accessoires - new_releases
+2024-09-28 04:07:46,766 - INFO - Encontrados 15 itens na categoria Amazon-apparaten & accessoires.
+2024-09-28 04:07:59,012 - INFO - Processando subcategoria: Auto & motor - new_releases
+2024-09-28 04:08:00,008 - INFO - Encontrados 30 itens na categoria Auto & motor.
+2024-09-28 04:08:18,011 - INFO - Processando subcategoria: Babyproducten - new_releases
+2024-09-28 04:08:18,987 - INFO - Encontrados 30 itens na categoria Babyproducten.
+2024-09-28 04:08:30,356 - INFO - Processando subcategoria: Beauty - new_releases
+2024-09-28 04:08:31,561 - INFO - Encontrados 30 itens na categoria Beauty.
+2024-09-28 04:08:45,396 - INFO - Processando subcategoria: Boeken - new_releases
+2024-09-28 04:08:46,436 - INFO - Encontrados 30 itens na categoria Boeken.
+2024-09-28 04:09:04,097 - INFO - Processando subcategoria: Elektronica - new_releases
+2024-09-28 04:09:05,210 - INFO - Encontrados 30 itens na categoria Elektronica.
+2024-09-28 04:09:18,850 - INFO - Processando subcategoria: Films & tv - new_releases
+2024-09-28 04:09:19,898 - INFO - Encontrados 30 itens na categoria Films & tv.
+2024-09-28 04:09:36,524 - INFO - Processando subcategoria: Games - new_releases
+2024-09-28 04:09:37,641 - INFO - Encontrados 30 itens na categoria Games.
+2024-09-28 04:09:56,693 - INFO - Processando subcategoria: Gezondheid & persoonlijke verzorging - new_releases
+2024-09-28 04:09:57,961 - INFO - Encontrados 30 itens na categoria Gezondheid & persoonlijke verzorging.
+2024-09-28 04:10:11,314 - INFO - Processando subcategoria: Huisdierbenodigdheden - new_releases
+2024-09-28 04:10:12,428 - INFO - Encontrados 30 itens na categoria Huisdierbenodigdheden.
+2024-09-28 04:10:23,339 - INFO - Processando subcategoria: Kantoorproducten - new_releases
+2024-09-28 04:10:24,348 - INFO - Encontrados 30 itens na categoria Kantoorproducten.
+2024-09-28 04:10:40,264 - INFO - Processando subcategoria: Kindle Store - new_releases
+2024-09-28 04:10:41,221 - INFO - Encontrados 30 itens na categoria Kindle Store.
+2024-09-28 04:10:55,004 - INFO - Processando subcategoria: Kleding, schoenen & sieraden - new_releases
+2024-09-28 04:10:56,158 - INFO - Encontrados 30 itens na categoria Kleding, schoenen & sieraden.
+2024-09-28 04:11:15,101 - INFO - Processando subcategoria: Klussen & gereedschap - new_releases
+2024-09-28 04:11:16,267 - INFO - Encontrados 30 itens na categoria Klussen & gereedschap.
+2024-09-28 04:11:27,000 - INFO - Processando subcategoria: Knutselen - new_releases
+2024-09-28 04:11:28,019 - INFO - Encontrados 30 itens na categoria Knutselen.
+2024-09-28 04:11:41,521 - INFO - Processando subcategoria: Muziek - new_releases
+2024-09-28 04:11:42,682 - INFO - Encontrados 30 itens na categoria Muziek.
+2024-09-28 04:12:00,153 - INFO - Processando subcategoria: Muziekinstrumenten - new_releases
+2024-09-28 04:12:01,348 - INFO - Encontrados 30 itens na categoria Muziekinstrumenten.
+2024-09-28 04:12:13,713 - INFO - Processando subcategoria: Speelgoed & spellen - new_releases
+2024-09-28 04:12:14,969 - INFO - Encontrados 30 itens na categoria Speelgoed & spellen.
+2024-09-28 04:12:30,805 - INFO - Processando subcategoria: Sport & outdoor - new_releases
+2024-09-28 04:12:31,976 - INFO - Encontrados 30 itens na categoria Sport & outdoor.
+2024-09-28 04:12:49,153 - INFO - Processando subcategoria: Tuin, terras & gazon - new_releases
+2024-09-28 04:12:50,605 - INFO - Encontrados 30 itens na categoria Tuin, terras & gazon.
+2024-09-28 04:13:04,002 - INFO - Processando subcategoria: Wonen & keuken - new_releases
+2024-09-28 04:13:04,923 - INFO - Encontrados 30 itens na categoria Wonen & keuken.
+2024-09-28 04:13:15,541 - INFO - Produtos de New Releases: 634
+2024-09-28 04:13:16,351 - INFO - Dados consolidados salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/extract/extract_amazon_full_2024-09-28.xlsx
+2024-09-28 04:13:16,351 - INFO - Processo finalizado!
+2024-09-28 04:13:16,351 - INFO - Produtos Totais encontrados: 780+722+634/ Total: 2600
+2024-09-28 04:13:16,351 - INFO - Iniciando transformação
+2024-09-28 04:13:16,367 - INFO - Dados limpos e valores inválidos removidos.
+2024-09-28 04:13:16,367 - INFO - Campos calculados adicionados com sucesso.
+2024-09-28 04:13:16,367 - INFO - Transformação finalizada.
+2024-09-28 04:13:17,101 - INFO - Dados carregados e salvos em C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon/final/base_amazon_final_2024-09-28.xlsx.
