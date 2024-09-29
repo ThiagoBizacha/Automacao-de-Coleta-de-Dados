@@ -267,13 +267,19 @@ if menu == 'Benchmark':
         st.markdown("<h2 class='section-title'>Análise de mercado</h2>", unsafe_allow_html=True)
         st.write("Aqui está uma pesquisa de mercado e análise de Benchmark para Shopify...")
 
-        # Visualização do PDF diretamente na página
-        pdf_path = "C:\\Users\\ThiagoBizacha\\Desktop\\Projeto_Automacao_Coleta_Dados\\docs\Apresentações\\Relatorio Identificação de Nichos e Produtos.pdf"
-        with open(pdf_path, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-        
-        pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1650" height="2000" type="application/pdf"></iframe>'
-        st.markdown(pdf_display, unsafe_allow_html=True)
+        # Caminho relativo ao diretório raiz do projeto
+        pdf_path = os.path.join("docs", "Apresentações", "Relatorio Identificação de Nichos e Produtos.pdf")
+
+        # Verificar se o arquivo existe
+        if os.path.exists(pdf_path):
+            # Abrindo e exibindo o PDF
+            with open(pdf_path, "rb") as f:
+                base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+            
+            pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1650" height="2000" type="application/pdf"></iframe>'
+            st.markdown(pdf_display, unsafe_allow_html=True)
+        else:
+            st.error(f"O arquivo PDF '{pdf_path}' não foi encontrado.")
 
     with tab2:
         st.header("AliExpress")
