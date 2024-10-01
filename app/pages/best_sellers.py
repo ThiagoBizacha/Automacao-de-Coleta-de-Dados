@@ -2,6 +2,8 @@ import streamlit as st
 import plotly.express as px
 import matplotlib.pyplot as plt
 import pandas as pd
+import plotly.graph_objs as go
+import altair as alt
 import time
 from wordcloud import WordCloud
 from app.components.data_loader import get_data
@@ -9,6 +11,7 @@ from app.components.filters import apply_filters
 from app.components.kpi_calculator import calculate_kpis
 from app.components.kpi_calculator import produto_top_5_frequente
 from app.components.visualizations import render_pareto_chart
+from app.components.visualizations import exibir_analise_preco
 
 # Cache para carregar dados
 @st.cache_data
@@ -270,7 +273,9 @@ def show_page():
 
 #--------------------------------------------------------------------------------------------------------------------------------
     # Nuvem de palavras
-    st.subheader("PALAVRAS MAIS FREQUENTES")
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>PALAVRAS MAIS FREQUENTES</div>", unsafe_allow_html=True)
     text = " ".join(name for name in df_filtered['name'])
     wordcloud = WordCloud(background_color="white", colormap="Blues", width=600, height=200).generate(text)
     fig, ax = plt.subplots()
@@ -278,17 +283,30 @@ def show_page():
     ax.axis("off")
     st.pyplot(fig)
 
+#--------------------------------------------------------------------------------------------------------------------------------   
+# Preço historico por produtos
+#--------------------------------------------------------------------------------------------------------------------------------  
+    
+    # Título estilizado
+    st.markdown("<div class='section-title'>ANÁLISE DE PREÇO POR PRODUTO</div>", unsafe_allow_html=True)
+    exibir_analise_preco(df)
+
 #--------------------------------------------------------------------------------------------------------------------------------
     # Gráfico de Pareto
-    st.subheader("PARETO POR CATEGORIA")
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>PARETO POR CATEGORIA</div>", unsafe_allow_html=True)
     render_pareto_chart(df_filtered)
+
 #--------------------------------------------------------------------------------------------------------------------------------
     # Gráfico de dispersão
+#--------------------------------------------------------------------------------------------------------------------------------
+
     if 'value' in df_filtered.columns and 'reviews' in df_filtered.columns and 'category' in df_filtered.columns:
         df_filtered = df_filtered.dropna(subset=['value', 'reviews', 'category'])
 
         if not df_filtered.empty:
-            st.subheader("PRODUTOS - VALOR X REVIEW")
+            st.markdown("<div class='section-title'>PRODUTOS - VALOR X REVIEW</div>", unsafe_allow_html=True)
             scatter_chart = px.scatter(df_filtered, x='value', y='reviews', color='category', 
                                        hover_data=['name', 'value', 'reviews'], template='plotly_white'
                                        )
@@ -300,31 +318,35 @@ def show_page():
 
 #--------------------------------------------------------------------------------------------------------------------------------
     # Tabela de produtos populares com ordenação
-    st.subheader("PRODUTOS POR SCORE")
+#--------------------------------------------------------------------------------------------------------------------------------
+
+    st.markdown("<div class='section-title'>PRODUTOS POR SCORE</div>", unsafe_allow_html=True)
     top_produtos_score = df_filtered.nlargest(10, 'score')
     st.dataframe(top_produtos_score[['name', 'category', 'value', 'reviews', 'score', 'rating']].sort_values(by='score', ascending=False))
+
 #--------------------------------------------------------------------------------------------------------------------------------   
     # Função para exibir o Top 3 por Rank em cada categoria
 #--------------------------------------------------------------------------------------------------------------------------------
+
     def top_3_by_rank_per_category(df):
         # Filtrar para pegar os 3 produtos com menor rank em cada categoria
         top_3_rank_per_category = df.groupby('category').apply(lambda x: x.nsmallest(3, 'rank')).reset_index(drop=True)
         
         # Exibir a tabela
-        st.subheader("TOP 3 PRODUTOS POR CATEGORIA")
+        st.markdown("<div class='section-title'>TOP 3 PRODUTOS POR CATEGORIA</div>", unsafe_allow_html=True)
         st.dataframe(top_3_rank_per_category[['category', 'name', 'rank', 'score', 'reviews', 'value']])
 
     # Exibir Top 3 por rank em cada categoria
     top_3_by_rank_per_category(df_filtered)
+
 #--------------------------------------------------------------------------------------------------------------------------------
     # Tabela de produtos completos
 #--------------------------------------------------------------------------------------------------------------------------------
-    st.subheader("BASE COMPLETA")
+
+    st.markdown("<div class='section-title'>BASE COMPLETA</div>", unsafe_allow_html=True)
     st.dataframe(df[['category', 'rank', 'asin', 'name', 'title', 'currency', 
                               'value', 'reviews', 'rating', 'score', 'link',
                               'date' , 'origin']].sort_values(by='score', ascending=False))
- #--------------------------------------------------------------------------------------------------------------------------------   
-
 
 
 
