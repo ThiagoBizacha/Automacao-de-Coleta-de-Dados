@@ -89,13 +89,13 @@ def exibir_analise_preco(df):
         desvio_padrao=('value', 'std'),
         valor_min=('value', 'min'),
         valor_max=('value', 'max'),
-        #primeiro_quartil=('value', lambda x: x.quantile(0.25)),
-        #terceiro_quartil=('value', lambda x: x.quantile(0.75)),
+        primeiro_quartil=('value', lambda x: x.quantile(0.25)),
+        terceiro_quartil=('value', lambda x: x.quantile(0.75)),
         amplitude=('value', lambda x: x.max() - x.min())  # Cálculo da amplitude
     ).reset_index()
 
     # Exibir a tabela de estatísticas no Streamlit
-    st.dataframe(df_stats[['name', 'media_value', 'mediana_value', 'desvio_padrao', 'valor_min', 'valor_max', 'amplitude']].sort_values(by='media_value', ascending=False))
+    st.dataframe(df_stats[['name', 'media_value', 'mediana_value', 'desvio_padrao', 'valor_min', 'valor_max', 'primeiro_quartil', 'terceiro_quartil', 'amplitude']].sort_values(by='media_value', ascending=False))
 
     # Exibir o gráfico de linha se um produto específico for selecionado
     if produto_selecionado != 'Todos':
