@@ -1,7 +1,12 @@
 streamlit
 pandas
+numpy
+requests
 plotly
 matplotlib
 wordcloud
-psycopg2
+psycopg2-binary
 lxml
+tqdm
+python-dotenv
+openpyxl
