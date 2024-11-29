@@ -1,15 +1,21 @@
 import pandas as pd
 import logging
 from datetime import datetime
+import os
+
+# Caminho relativo ao diretório base do repositório
+log_directory = os.path.join(os.getcwd(), 'data/logs/')
+os.makedirs(log_directory, exist_ok=True)  # Garante que o diretório será criado, caso não exista
 
 # Configuração do logging
 logging.basicConfig(
-    filename="C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/logs/load_data.log",
+    filename=os.path.join(log_directory, 'load_data.log'),  # Caminho do arquivo de log dentro do diretório relativo
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-directory_path = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon"
+directory_path = os.path.join(os.getcwd(), 'data/output/bot_amazon/final')
+os.makedirs(directory_path, exist_ok=True)
 
 def load_data(df_transformed):
     """
