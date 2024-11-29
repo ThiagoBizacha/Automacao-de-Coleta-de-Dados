@@ -24,6 +24,7 @@ jobs:
 
       - name: Executar o script
         run: |
-          python seu_script.py
+          python etl/pipeline_data_amazon.py
+
 
 
