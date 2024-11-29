@@ -1,9 +1,9 @@
-name: Executar Script a cada 1h
+name: Executar Script a cada 3h
 
 on:
   workflow_dispatch:  # Permite execução manual
   schedule:
-    - cron: '0 23 * * *'  # Executa às 23:00 (UTC)
+    - cron: '0 */3 * * *'  # Executa a cada 3 horas (UTC)
 
 jobs:
   execute-script:
@@ -24,6 +24,6 @@ jobs:
 
       - name: Executar o script
         run: |
-          python etl/pipeline_data_amazon.py
+          python seu_script.py
 
 
