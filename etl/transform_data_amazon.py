@@ -4,8 +4,8 @@ import os
 import numpy as np
 
 # Diretório para salvar os logs
-log_directory = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/logs/"
-os.makedirs(log_directory, exist_ok=True)  # Cria o diretório de logs se ele ainda não existir
+log_directory = os.path.join(os.getcwd(), 'data/logs/')
+os.makedirs(log_directory, exist_ok=True)
 
 # Configuração do logging
 logging.basicConfig(
