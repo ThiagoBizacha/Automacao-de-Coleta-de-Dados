@@ -4,4 +4,4 @@ plotly
 matplotlib
 wordcloud
 psycopg2
-
+lxml
