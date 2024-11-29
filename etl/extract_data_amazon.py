@@ -10,8 +10,8 @@ import os  # Biblioteca para manipulação de sistemas operacionais, usada para 
 from tqdm import tqdm  # Biblioteca para criar barra de progresso
 
 # Diretório para salvar os logs
-log_directory = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/logs/"
-os.makedirs(log_directory, exist_ok=True)  # Cria o diretório de logs se ele ainda não existir
+log_directory = os.path.join(os.getcwd(), 'data/logs/')
+os.makedirs(log_directory, exist_ok=True)
 
 # Configuração do logging para salvar no diretório especificado
 logging.basicConfig(
@@ -297,7 +297,8 @@ def process_category(category_url, category_type):
 def extract_data():
     print("Extração iniciada")
 
-    directory_path = "C:/Users/ThiagoBizacha/Desktop/Projeto_Automacao_Coleta_Dados/data/output/bot_amazon"
+    directory_path = os.path.join(os.getcwd(), 'data/output/bot_amazon/extract')
+    os.makedirs(directory_path, exist_ok=True)
 
     # Lista para armazenar os produtos de todas as categorias
     all_products = []
